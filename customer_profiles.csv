@@ -1,0 +1,2001 @@
+customer_id,acquisition_date,segment,acquisition_channel
+C00001,2022-02-06,Regular,Direct
+C00002,2023-06-29,Occasional,Organic search
+C00003,2024-03-13,Enthusiast,Organic search
+C00004,2022-06-03,Regular,Referral
+C00005,2022-07-26,Regular,Direct
+C00006,2022-06-15,Regular,Paid search
+C00007,2022-09-13,Occasional,Paid search
+C00008,2022-06-03,Enthusiast,Paid search
+C00009,2022-12-23,Occasional,Organic search
+C00010,2023-11-11,Occasional,Direct
+C00011,2023-10-28,Enthusiast,Organic search
+C00012,2023-07-01,Occasional,Organic search
+C00013,2022-09-22,Occasional,Direct
+C00014,2022-05-26,Regular,Direct
+C00015,2023-01-30,Regular,Organic search
+C00016,2023-09-29,Occasional,Referral
+C00017,2022-08-29,Enthusiast,Paid search
+C00018,2024-06-28,Occasional,Paid search
+C00019,2022-04-02,Regular,Organic search
+C00020,2023-06-24,Occasional,Direct
+C00021,2024-04-02,Regular,Organic search
+C00022,2023-03-20,Regular,Paid search
+C00023,2023-05-29,Occasional,Organic search
+C00024,2022-05-07,Regular,Paid search
+C00025,2023-11-19,Regular,Social
+C00026,2022-10-18,Occasional,Direct
+C00027,2024-02-25,Regular,Referral
+C00028,2023-05-17,Occasional,Social
+C00029,2023-04-01,Enthusiast,Direct
+C00030,2023-07-28,Regular,Organic search
+C00031,2022-02-02,Occasional,Direct
+C00032,2023-08-14,Enthusiast,Paid search
+C00033,2023-01-10,Occasional,Paid search
+C00034,2023-11-10,Occasional,Referral
+C00035,2022-06-04,Occasional,Paid search
+C00036,2022-11-27,Enthusiast,Social
+C00037,2023-08-30,Occasional,Social
+C00038,2024-05-02,Occasional,Referral
+C00039,2023-01-20,Regular,Referral
+C00040,2024-03-13,Regular,Organic search
+C00041,2022-04-06,Occasional,Organic search
+C00042,2022-10-04,Occasional,Paid search
+C00043,2023-04-04,Occasional,Organic search
+C00044,2024-05-08,Occasional,Organic search
+C00045,2022-02-12,Regular,Organic search
+C00046,2023-12-15,Occasional,Paid search
+C00047,2023-05-14,Regular,Organic search
+C00048,2022-09-01,Occasional,Organic search
+C00049,2022-04-07,Regular,Social
+C00050,2023-01-20,Occasional,Organic search
+C00051,2023-11-09,Regular,Direct
+C00052,2023-09-27,Regular,Organic search
+C00053,2024-01-26,Regular,Social
+C00054,2023-08-30,Regular,Paid search
+C00055,2022-06-24,Regular,Social
+C00056,2022-08-16,Regular,Referral
+C00057,2024-04-16,Occasional,Organic search
+C00058,2022-02-23,Occasional,Direct
+C00059,2023-11-17,Occasional,Social
+C00060,2022-03-24,Regular,Paid search
+C00061,2022-05-07,Occasional,Paid search
+C00062,2023-07-25,Regular,Organic search
+C00063,2023-07-28,Regular,Paid search
+C00064,2024-06-26,Occasional,Referral
+C00065,2023-06-12,Enthusiast,Referral
+C00066,2022-02-11,Occasional,Organic search
+C00067,2023-07-19,Occasional,Paid search
+C00068,2024-05-06,Enthusiast,Paid search
+C00069,2022-01-28,Regular,Referral
+C00070,2023-01-14,Regular,Direct
+C00071,2023-10-22,Occasional,Organic search
+C00072,2022-03-12,Enthusiast,Direct
+C00073,2022-03-04,Regular,Referral
+C00074,2022-03-10,Regular,Organic search
+C00075,2023-10-09,Occasional,Referral
+C00076,2023-03-13,Enthusiast,Organic search
+C00077,2023-06-04,Occasional,Paid search
+C00078,2023-03-04,Regular,Organic search
+C00079,2022-11-20,Regular,Organic search
+C00080,2023-08-14,Regular,Organic search
+C00081,2023-01-21,Occasional,Paid search
+C00082,2024-04-16,Occasional,Referral
+C00083,2022-07-12,Regular,Organic search
+C00084,2024-05-22,Regular,Paid search
+C00085,2023-01-01,Regular,Direct
+C00086,2022-10-23,Enthusiast,Organic search
+C00087,2024-01-20,Occasional,Paid search
+C00088,2022-12-11,Occasional,Referral
+C00089,2022-10-17,Regular,Paid search
+C00090,2024-03-17,Occasional,Referral
+C00091,2022-01-01,Enthusiast,Organic search
+C00092,2022-07-22,Occasional,Organic search
+C00093,2022-06-16,Enthusiast,Direct
+C00094,2022-01-30,Regular,Paid search
+C00095,2023-06-20,Occasional,Social
+C00096,2022-09-20,Enthusiast,Referral
+C00097,2022-12-16,Occasional,Referral
+C00098,2022-12-31,Occasional,Paid search
+C00099,2022-12-16,Occasional,Social
+C00100,2023-09-27,Occasional,Referral
+C00101,2024-01-19,Occasional,Paid search
+C00102,2023-10-29,Regular,Referral
+C00103,2022-11-29,Occasional,Referral
+C00104,2023-11-13,Occasional,Social
+C00105,2022-01-20,Occasional,Organic search
+C00106,2022-04-17,Occasional,Referral
+C00107,2022-08-07,Occasional,Organic search
+C00108,2024-06-21,Regular,Organic search
+C00109,2022-05-29,Regular,Organic search
+C00110,2022-09-20,Enthusiast,Paid search
+C00111,2022-02-08,Enthusiast,Paid search
+C00112,2024-02-03,Regular,Social
+C00113,2023-09-29,Regular,Direct
+C00114,2022-12-09,Occasional,Paid search
+C00115,2023-10-16,Enthusiast,Organic search
+C00116,2023-12-04,Occasional,Referral
+C00117,2023-11-03,Occasional,Organic search
+C00118,2023-02-20,Regular,Paid search
+C00119,2023-06-10,Occasional,Paid search
+C00120,2023-06-23,Occasional,Organic search
+C00121,2022-09-04,Occasional,Referral
+C00122,2023-10-25,Occasional,Paid search
+C00123,2023-02-09,Occasional,Organic search
+C00124,2022-11-12,Enthusiast,Referral
+C00125,2022-02-12,Occasional,Social
+C00126,2023-09-01,Regular,Paid search
+C00127,2022-11-16,Occasional,Referral
+C00128,2022-11-27,Regular,Paid search
+C00129,2023-03-17,Regular,Organic search
+C00130,2024-02-18,Occasional,Paid search
+C00131,2022-02-10,Regular,Paid search
+C00132,2022-09-25,Occasional,Organic search
+C00133,2024-06-24,Occasional,Direct
+C00134,2024-05-25,Regular,Direct
+C00135,2023-08-22,Occasional,Referral
+C00136,2022-08-03,Regular,Paid search
+C00137,2024-06-18,Regular,Paid search
+C00138,2022-12-10,Occasional,Paid search
+C00139,2023-02-26,Regular,Organic search
+C00140,2024-02-13,Regular,Paid search
+C00141,2023-11-07,Regular,Organic search
+C00142,2023-09-02,Occasional,Direct
+C00143,2022-06-02,Regular,Organic search
+C00144,2023-05-10,Regular,Referral
+C00145,2024-04-16,Regular,Direct
+C00146,2023-05-07,Occasional,Paid search
+C00147,2022-01-28,Regular,Paid search
+C00148,2024-06-02,Enthusiast,Paid search
+C00149,2023-07-21,Regular,Organic search
+C00150,2023-01-03,Occasional,Organic search
+C00151,2023-01-13,Occasional,Direct
+C00152,2023-09-19,Occasional,Direct
+C00153,2022-01-30,Regular,Organic search
+C00154,2022-04-14,Occasional,Direct
+C00155,2023-01-10,Occasional,Referral
+C00156,2022-09-23,Occasional,Organic search
+C00157,2023-05-11,Regular,Paid search
+C00158,2023-05-25,Occasional,Paid search
+C00159,2022-06-14,Regular,Social
+C00160,2022-10-28,Enthusiast,Referral
+C00161,2022-07-01,Regular,Paid search
+C00162,2024-04-16,Regular,Referral
+C00163,2023-02-27,Regular,Paid search
+C00164,2022-05-16,Occasional,Organic search
+C00165,2023-01-06,Occasional,Organic search
+C00166,2023-09-25,Occasional,Paid search
+C00167,2022-02-02,Regular,Social
+C00168,2022-03-23,Enthusiast,Organic search
+C00169,2022-05-15,Enthusiast,Paid search
+C00170,2023-12-24,Occasional,Referral
+C00171,2023-01-12,Occasional,Direct
+C00172,2022-02-14,Occasional,Organic search
+C00173,2024-06-08,Regular,Direct
+C00174,2024-04-30,Regular,Organic search
+C00175,2023-11-29,Enthusiast,Paid search
+C00176,2024-04-07,Enthusiast,Organic search
+C00177,2023-02-10,Occasional,Organic search
+C00178,2023-11-13,Occasional,Social
+C00179,2023-10-09,Regular,Organic search
+C00180,2022-05-06,Occasional,Direct
+C00181,2024-06-06,Occasional,Organic search
+C00182,2023-10-29,Occasional,Organic search
+C00183,2022-02-01,Regular,Organic search
+C00184,2022-11-04,Occasional,Referral
+C00185,2023-09-25,Occasional,Organic search
+C00186,2023-02-09,Regular,Paid search
+C00187,2023-11-03,Occasional,Social
+C00188,2022-12-20,Regular,Social
+C00189,2022-04-30,Regular,Paid search
+C00190,2023-02-26,Occasional,Paid search
+C00191,2023-12-01,Occasional,Paid search
+C00192,2023-02-18,Regular,Referral
+C00193,2023-10-01,Regular,Paid search
+C00194,2023-07-15,Regular,Paid search
+C00195,2022-04-23,Regular,Direct
+C00196,2023-10-01,Occasional,Referral
+C00197,2024-03-10,Regular,Paid search
+C00198,2023-05-02,Occasional,Social
+C00199,2024-05-04,Regular,Organic search
+C00200,2022-01-30,Regular,Referral
+C00201,2022-02-11,Occasional,Referral
+C00202,2023-09-15,Occasional,Referral
+C00203,2022-08-08,Regular,Paid search
+C00204,2022-12-02,Regular,Paid search
+C00205,2022-09-01,Occasional,Social
+C00206,2022-03-13,Regular,Paid search
+C00207,2023-11-10,Occasional,Direct
+C00208,2024-03-11,Occasional,Social
+C00209,2022-08-22,Enthusiast,Paid search
+C00210,2024-01-27,Regular,Social
+C00211,2022-01-25,Regular,Direct
+C00212,2023-08-06,Regular,Organic search
+C00213,2023-09-11,Regular,Paid search
+C00214,2022-02-11,Regular,Organic search
+C00215,2024-01-05,Occasional,Referral
+C00216,2023-01-02,Occasional,Organic search
+C00217,2024-02-13,Occasional,Organic search
+C00218,2023-05-12,Regular,Social
+C00219,2023-09-22,Occasional,Social
+C00220,2023-03-23,Regular,Organic search
+C00221,2024-02-12,Occasional,Paid search
+C00222,2022-08-25,Occasional,Social
+C00223,2022-05-07,Regular,Referral
+C00224,2023-10-17,Regular,Organic search
+C00225,2023-01-19,Enthusiast,Referral
+C00226,2022-05-29,Regular,Referral
+C00227,2024-06-14,Occasional,Organic search
+C00228,2022-02-28,Occasional,Referral
+C00229,2022-11-20,Occasional,Social
+C00230,2024-04-10,Enthusiast,Referral
+C00231,2022-02-08,Occasional,Paid search
+C00232,2023-06-19,Occasional,Paid search
+C00233,2024-04-19,Regular,Direct
+C00234,2022-05-08,Occasional,Paid search
+C00235,2023-04-30,Regular,Referral
+C00236,2023-02-28,Occasional,Organic search
+C00237,2023-12-25,Regular,Paid search
+C00238,2024-06-24,Regular,Direct
+C00239,2023-10-15,Enthusiast,Paid search
+C00240,2023-09-24,Occasional,Direct
+C00241,2024-06-11,Occasional,Organic search
+C00242,2022-03-07,Occasional,Paid search
+C00243,2022-04-09,Occasional,Paid search
+C00244,2024-06-05,Regular,Organic search
+C00245,2022-07-03,Regular,Social
+C00246,2024-04-25,Regular,Organic search
+C00247,2023-11-10,Occasional,Organic search
+C00248,2022-04-06,Occasional,Social
+C00249,2024-03-04,Occasional,Paid search
+C00250,2022-01-10,Occasional,Organic search
+C00251,2022-01-01,Occasional,Organic search
+C00252,2023-07-26,Enthusiast,Direct
+C00253,2023-05-10,Regular,Organic search
+C00254,2024-06-08,Occasional,Organic search
+C00255,2022-03-21,Regular,Referral
+C00256,2023-10-01,Regular,Paid search
+C00257,2024-06-23,Occasional,Social
+C00258,2024-03-12,Occasional,Paid search
+C00259,2024-01-16,Enthusiast,Referral
+C00260,2022-08-24,Regular,Paid search
+C00261,2022-11-08,Enthusiast,Organic search
+C00262,2023-08-14,Occasional,Paid search
+C00263,2023-09-10,Occasional,Referral
+C00264,2023-08-22,Occasional,Paid search
+C00265,2023-05-07,Occasional,Organic search
+C00266,2022-09-29,Occasional,Organic search
+C00267,2024-03-24,Occasional,Social
+C00268,2022-07-11,Regular,Organic search
+C00269,2023-02-24,Occasional,Paid search
+C00270,2022-01-03,Enthusiast,Paid search
+C00271,2022-01-27,Occasional,Referral
+C00272,2022-06-05,Occasional,Paid search
+C00273,2023-06-21,Regular,Organic search
+C00274,2023-09-29,Occasional,Paid search
+C00275,2024-01-12,Regular,Paid search
+C00276,2023-10-18,Occasional,Social
+C00277,2022-03-03,Regular,Organic search
+C00278,2022-09-12,Regular,Social
+C00279,2024-01-11,Regular,Organic search
+C00280,2023-09-07,Enthusiast,Organic search
+C00281,2024-05-04,Regular,Direct
+C00282,2023-09-23,Occasional,Organic search
+C00283,2024-06-18,Occasional,Organic search
+C00284,2022-09-05,Occasional,Referral
+C00285,2022-02-26,Regular,Direct
+C00286,2022-05-25,Occasional,Organic search
+C00287,2022-03-13,Regular,Paid search
+C00288,2022-08-04,Occasional,Organic search
+C00289,2022-02-22,Occasional,Social
+C00290,2024-01-11,Regular,Organic search
+C00291,2023-03-11,Occasional,Paid search
+C00292,2022-11-29,Occasional,Organic search
+C00293,2022-03-26,Occasional,Direct
+C00294,2023-05-25,Occasional,Paid search
+C00295,2023-06-14,Occasional,Direct
+C00296,2022-07-04,Regular,Organic search
+C00297,2023-07-13,Occasional,Organic search
+C00298,2022-10-18,Occasional,Direct
+C00299,2022-05-01,Regular,Direct
+C00300,2022-06-03,Regular,Organic search
+C00301,2023-02-25,Enthusiast,Referral
+C00302,2022-03-29,Occasional,Social
+C00303,2024-05-30,Occasional,Referral
+C00304,2022-10-03,Occasional,Organic search
+C00305,2022-10-23,Enthusiast,Paid search
+C00306,2024-01-12,Occasional,Direct
+C00307,2024-02-04,Occasional,Organic search
+C00308,2022-05-12,Occasional,Organic search
+C00309,2023-04-12,Occasional,Referral
+C00310,2023-05-22,Enthusiast,Social
+C00311,2022-05-01,Enthusiast,Social
+C00312,2023-05-02,Enthusiast,Social
+C00313,2023-08-06,Enthusiast,Social
+C00314,2023-10-11,Regular,Organic search
+C00315,2022-09-08,Regular,Social
+C00316,2022-07-13,Occasional,Referral
+C00317,2022-11-06,Regular,Social
+C00318,2022-03-06,Regular,Organic search
+C00319,2024-01-23,Enthusiast,Referral
+C00320,2022-05-26,Occasional,Organic search
+C00321,2023-06-06,Occasional,Direct
+C00322,2023-12-30,Occasional,Direct
+C00323,2023-06-23,Enthusiast,Organic search
+C00324,2023-02-04,Enthusiast,Referral
+C00325,2024-01-17,Regular,Paid search
+C00326,2022-03-29,Regular,Direct
+C00327,2022-06-28,Occasional,Organic search
+C00328,2023-12-23,Occasional,Paid search
+C00329,2023-05-10,Occasional,Organic search
+C00330,2024-04-08,Occasional,Organic search
+C00331,2022-07-30,Enthusiast,Organic search
+C00332,2022-03-09,Occasional,Paid search
+C00333,2022-06-10,Regular,Social
+C00334,2023-11-18,Regular,Organic search
+C00335,2022-04-15,Occasional,Social
+C00336,2024-04-15,Regular,Organic search
+C00337,2022-01-29,Occasional,Social
+C00338,2022-09-28,Regular,Organic search
+C00339,2022-12-12,Regular,Organic search
+C00340,2023-10-13,Occasional,Organic search
+C00341,2023-12-25,Regular,Direct
+C00342,2023-12-22,Enthusiast,Organic search
+C00343,2023-02-19,Enthusiast,Referral
+C00344,2023-11-23,Occasional,Organic search
+C00345,2023-02-07,Occasional,Organic search
+C00346,2023-01-10,Regular,Social
+C00347,2024-01-04,Regular,Organic search
+C00348,2023-06-23,Regular,Organic search
+C00349,2024-02-18,Regular,Referral
+C00350,2022-05-30,Regular,Referral
+C00351,2022-05-08,Occasional,Direct
+C00352,2022-04-10,Occasional,Social
+C00353,2023-11-04,Occasional,Paid search
+C00354,2022-08-11,Occasional,Organic search
+C00355,2023-09-10,Occasional,Referral
+C00356,2022-05-07,Enthusiast,Paid search
+C00357,2022-02-22,Occasional,Paid search
+C00358,2023-02-28,Occasional,Paid search
+C00359,2024-04-21,Occasional,Paid search
+C00360,2022-12-23,Occasional,Paid search
+C00361,2023-11-21,Occasional,Organic search
+C00362,2023-10-21,Occasional,Referral
+C00363,2022-02-16,Occasional,Organic search
+C00364,2023-02-18,Regular,Referral
+C00365,2023-08-25,Occasional,Paid search
+C00366,2023-04-19,Occasional,Social
+C00367,2022-01-02,Occasional,Paid search
+C00368,2022-12-21,Regular,Referral
+C00369,2023-06-07,Occasional,Paid search
+C00370,2023-12-13,Occasional,Paid search
+C00371,2024-04-23,Enthusiast,Organic search
+C00372,2024-03-16,Regular,Paid search
+C00373,2022-02-24,Occasional,Paid search
+C00374,2024-06-23,Occasional,Social
+C00375,2024-06-29,Occasional,Referral
+C00376,2023-12-12,Regular,Organic search
+C00377,2023-06-18,Occasional,Referral
+C00378,2023-05-02,Occasional,Social
+C00379,2023-10-07,Enthusiast,Paid search
+C00380,2023-12-13,Enthusiast,Referral
+C00381,2023-03-04,Occasional,Referral
+C00382,2023-07-27,Occasional,Paid search
+C00383,2024-04-27,Regular,Organic search
+C00384,2023-04-30,Occasional,Paid search
+C00385,2023-02-12,Enthusiast,Social
+C00386,2024-03-21,Regular,Referral
+C00387,2023-08-29,Occasional,Organic search
+C00388,2023-08-23,Occasional,Paid search
+C00389,2023-12-11,Occasional,Organic search
+C00390,2022-10-09,Occasional,Paid search
+C00391,2022-08-01,Regular,Organic search
+C00392,2022-03-30,Enthusiast,Referral
+C00393,2023-07-23,Occasional,Direct
+C00394,2022-07-05,Occasional,Paid search
+C00395,2024-01-21,Enthusiast,Referral
+C00396,2024-05-03,Occasional,Paid search
+C00397,2022-12-22,Occasional,Organic search
+C00398,2024-02-01,Regular,Referral
+C00399,2023-11-21,Occasional,Paid search
+C00400,2023-12-20,Occasional,Social
+C00401,2022-09-16,Regular,Referral
+C00402,2022-03-17,Occasional,Organic search
+C00403,2023-08-28,Regular,Organic search
+C00404,2023-10-30,Regular,Direct
+C00405,2023-04-13,Regular,Social
+C00406,2022-03-04,Occasional,Organic search
+C00407,2023-01-18,Occasional,Paid search
+C00408,2022-01-16,Regular,Organic search
+C00409,2023-02-12,Enthusiast,Direct
+C00410,2023-03-09,Regular,Organic search
+C00411,2024-02-01,Occasional,Paid search
+C00412,2024-02-02,Regular,Paid search
+C00413,2024-04-01,Regular,Referral
+C00414,2022-09-20,Occasional,Direct
+C00415,2022-07-29,Enthusiast,Organic search
+C00416,2024-05-21,Regular,Social
+C00417,2024-04-15,Regular,Organic search
+C00418,2022-03-13,Occasional,Referral
+C00419,2023-04-14,Occasional,Direct
+C00420,2023-06-28,Occasional,Organic search
+C00421,2022-11-07,Occasional,Referral
+C00422,2024-01-26,Occasional,Organic search
+C00423,2024-06-28,Occasional,Paid search
+C00424,2023-05-08,Enthusiast,Referral
+C00425,2023-10-30,Regular,Organic search
+C00426,2022-10-06,Regular,Paid search
+C00427,2023-08-11,Enthusiast,Paid search
+C00428,2024-03-23,Regular,Direct
+C00429,2022-10-03,Occasional,Paid search
+C00430,2022-06-21,Regular,Organic search
+C00431,2024-06-06,Occasional,Organic search
+C00432,2024-02-19,Occasional,Organic search
+C00433,2024-05-09,Regular,Paid search
+C00434,2023-08-27,Occasional,Paid search
+C00435,2023-09-10,Regular,Paid search
+C00436,2022-08-03,Occasional,Organic search
+C00437,2023-11-22,Enthusiast,Referral
+C00438,2023-02-19,Regular,Direct
+C00439,2022-11-11,Regular,Organic search
+C00440,2023-08-22,Enthusiast,Social
+C00441,2023-08-01,Occasional,Referral
+C00442,2023-04-10,Occasional,Direct
+C00443,2023-06-02,Occasional,Social
+C00444,2023-04-09,Occasional,Paid search
+C00445,2024-03-17,Occasional,Paid search
+C00446,2022-03-03,Enthusiast,Referral
+C00447,2024-05-11,Occasional,Organic search
+C00448,2024-05-30,Enthusiast,Paid search
+C00449,2022-08-12,Occasional,Organic search
+C00450,2022-07-04,Occasional,Paid search
+C00451,2023-02-08,Occasional,Referral
+C00452,2022-08-31,Regular,Paid search
+C00453,2023-11-13,Occasional,Organic search
+C00454,2023-04-11,Occasional,Paid search
+C00455,2024-06-11,Regular,Direct
+C00456,2023-08-28,Occasional,Organic search
+C00457,2023-04-18,Occasional,Organic search
+C00458,2022-08-09,Regular,Direct
+C00459,2022-01-04,Regular,Referral
+C00460,2022-02-18,Regular,Organic search
+C00461,2024-03-15,Regular,Direct
+C00462,2024-06-20,Enthusiast,Organic search
+C00463,2022-09-28,Occasional,Organic search
+C00464,2024-04-28,Occasional,Organic search
+C00465,2022-06-27,Regular,Paid search
+C00466,2023-01-21,Occasional,Social
+C00467,2023-01-03,Regular,Social
+C00468,2023-09-20,Occasional,Organic search
+C00469,2024-01-19,Occasional,Social
+C00470,2022-07-25,Regular,Direct
+C00471,2023-11-03,Regular,Referral
+C00472,2024-02-01,Regular,Direct
+C00473,2022-01-14,Regular,Organic search
+C00474,2023-09-08,Regular,Referral
+C00475,2023-05-04,Regular,Organic search
+C00476,2022-07-16,Occasional,Paid search
+C00477,2023-03-08,Regular,Paid search
+C00478,2024-03-10,Occasional,Organic search
+C00479,2024-01-15,Occasional,Organic search
+C00480,2023-02-05,Occasional,Direct
+C00481,2023-05-07,Occasional,Organic search
+C00482,2022-08-11,Occasional,Paid search
+C00483,2022-10-06,Occasional,Organic search
+C00484,2022-06-19,Enthusiast,Paid search
+C00485,2023-05-26,Occasional,Referral
+C00486,2023-12-04,Occasional,Paid search
+C00487,2023-12-12,Occasional,Direct
+C00488,2023-06-19,Enthusiast,Direct
+C00489,2023-01-21,Occasional,Paid search
+C00490,2024-02-21,Occasional,Organic search
+C00491,2022-05-22,Enthusiast,Social
+C00492,2023-10-19,Regular,Social
+C00493,2024-03-01,Occasional,Organic search
+C00494,2022-07-30,Regular,Social
+C00495,2024-05-22,Regular,Referral
+C00496,2022-06-22,Enthusiast,Direct
+C00497,2023-06-20,Occasional,Organic search
+C00498,2022-04-01,Enthusiast,Paid search
+C00499,2023-05-08,Occasional,Organic search
+C00500,2024-04-15,Occasional,Direct
+C00501,2024-02-28,Regular,Organic search
+C00502,2024-05-24,Occasional,Referral
+C00503,2023-07-24,Regular,Referral
+C00504,2022-04-13,Regular,Social
+C00505,2022-09-14,Occasional,Direct
+C00506,2024-02-27,Enthusiast,Paid search
+C00507,2022-12-08,Occasional,Organic search
+C00508,2023-11-11,Regular,Social
+C00509,2023-11-01,Regular,Paid search
+C00510,2024-05-25,Regular,Direct
+C00511,2023-04-12,Occasional,Paid search
+C00512,2022-06-26,Occasional,Direct
+C00513,2022-09-29,Regular,Paid search
+C00514,2024-01-29,Occasional,Paid search
+C00515,2023-10-17,Occasional,Paid search
+C00516,2023-12-02,Enthusiast,Paid search
+C00517,2024-02-24,Enthusiast,Direct
+C00518,2024-06-09,Occasional,Organic search
+C00519,2024-06-19,Occasional,Paid search
+C00520,2022-11-02,Regular,Referral
+C00521,2022-10-12,Regular,Organic search
+C00522,2023-10-27,Regular,Referral
+C00523,2022-02-23,Regular,Referral
+C00524,2022-05-09,Occasional,Referral
+C00525,2024-04-03,Regular,Referral
+C00526,2022-01-14,Enthusiast,Referral
+C00527,2023-11-14,Enthusiast,Paid search
+C00528,2022-06-07,Regular,Paid search
+C00529,2022-03-19,Occasional,Referral
+C00530,2022-03-16,Occasional,Referral
+C00531,2024-02-26,Occasional,Referral
+C00532,2023-12-08,Occasional,Direct
+C00533,2023-07-08,Enthusiast,Referral
+C00534,2022-10-31,Occasional,Paid search
+C00535,2022-06-07,Regular,Social
+C00536,2022-12-27,Occasional,Direct
+C00537,2024-05-27,Occasional,Referral
+C00538,2023-05-08,Enthusiast,Direct
+C00539,2023-09-14,Occasional,Organic search
+C00540,2022-05-02,Regular,Organic search
+C00541,2022-10-10,Occasional,Organic search
+C00542,2024-06-17,Regular,Organic search
+C00543,2023-07-01,Enthusiast,Paid search
+C00544,2024-03-28,Occasional,Direct
+C00545,2022-11-13,Regular,Direct
+C00546,2023-01-26,Regular,Organic search
+C00547,2024-01-16,Regular,Referral
+C00548,2023-12-18,Regular,Paid search
+C00549,2023-11-20,Occasional,Social
+C00550,2022-08-19,Occasional,Paid search
+C00551,2023-04-09,Occasional,Social
+C00552,2022-04-15,Occasional,Referral
+C00553,2022-02-23,Occasional,Organic search
+C00554,2022-12-08,Enthusiast,Organic search
+C00555,2023-10-07,Occasional,Organic search
+C00556,2023-09-30,Regular,Referral
+C00557,2022-09-13,Occasional,Direct
+C00558,2023-06-29,Regular,Referral
+C00559,2023-07-18,Regular,Social
+C00560,2022-09-18,Occasional,Paid search
+C00561,2024-03-09,Regular,Paid search
+C00562,2023-06-18,Regular,Referral
+C00563,2022-07-19,Regular,Paid search
+C00564,2022-01-14,Regular,Organic search
+C00565,2022-05-28,Occasional,Direct
+C00566,2023-11-06,Regular,Organic search
+C00567,2023-08-12,Occasional,Social
+C00568,2023-12-03,Occasional,Paid search
+C00569,2024-01-26,Occasional,Paid search
+C00570,2024-05-19,Occasional,Social
+C00571,2023-02-02,Enthusiast,Paid search
+C00572,2022-02-16,Occasional,Paid search
+C00573,2022-05-02,Regular,Organic search
+C00574,2024-03-28,Occasional,Direct
+C00575,2023-05-27,Occasional,Organic search
+C00576,2024-02-17,Occasional,Paid search
+C00577,2023-09-11,Enthusiast,Paid search
+C00578,2022-04-10,Occasional,Organic search
+C00579,2024-06-03,Occasional,Organic search
+C00580,2022-07-23,Regular,Organic search
+C00581,2022-01-18,Regular,Referral
+C00582,2023-07-01,Enthusiast,Paid search
+C00583,2023-12-08,Regular,Direct
+C00584,2023-01-29,Regular,Direct
+C00585,2022-10-22,Occasional,Direct
+C00586,2022-09-19,Regular,Social
+C00587,2023-03-08,Regular,Direct
+C00588,2023-05-11,Occasional,Paid search
+C00589,2022-09-04,Regular,Paid search
+C00590,2022-01-29,Regular,Paid search
+C00591,2022-09-22,Regular,Social
+C00592,2023-10-07,Enthusiast,Referral
+C00593,2023-05-30,Occasional,Referral
+C00594,2023-01-21,Regular,Referral
+C00595,2022-08-08,Occasional,Social
+C00596,2022-05-02,Regular,Organic search
+C00597,2023-03-14,Occasional,Paid search
+C00598,2024-01-13,Enthusiast,Paid search
+C00599,2022-06-13,Regular,Organic search
+C00600,2022-12-11,Occasional,Paid search
+C00601,2023-11-15,Regular,Paid search
+C00602,2022-02-11,Regular,Organic search
+C00603,2023-09-04,Occasional,Organic search
+C00604,2023-11-19,Regular,Social
+C00605,2023-09-05,Regular,Direct
+C00606,2022-09-08,Regular,Organic search
+C00607,2024-04-07,Regular,Social
+C00608,2022-12-11,Occasional,Social
+C00609,2023-10-02,Enthusiast,Paid search
+C00610,2022-04-12,Occasional,Organic search
+C00611,2023-12-02,Occasional,Organic search
+C00612,2022-08-08,Occasional,Direct
+C00613,2024-01-27,Enthusiast,Social
+C00614,2022-08-14,Enthusiast,Social
+C00615,2023-10-07,Regular,Paid search
+C00616,2023-10-03,Occasional,Organic search
+C00617,2022-08-19,Regular,Referral
+C00618,2023-01-06,Regular,Organic search
+C00619,2022-06-06,Occasional,Social
+C00620,2022-06-21,Enthusiast,Direct
+C00621,2022-02-15,Regular,Organic search
+C00622,2022-06-30,Occasional,Organic search
+C00623,2024-02-29,Regular,Social
+C00624,2024-04-10,Enthusiast,Direct
+C00625,2023-08-29,Occasional,Organic search
+C00626,2023-12-11,Regular,Paid search
+C00627,2022-01-27,Occasional,Organic search
+C00628,2022-10-13,Occasional,Paid search
+C00629,2022-06-25,Regular,Social
+C00630,2022-01-27,Regular,Social
+C00631,2023-09-01,Enthusiast,Paid search
+C00632,2023-11-03,Occasional,Paid search
+C00633,2023-11-10,Enthusiast,Organic search
+C00634,2022-11-03,Enthusiast,Referral
+C00635,2023-05-11,Regular,Referral
+C00636,2022-07-23,Enthusiast,Social
+C00637,2022-01-26,Occasional,Direct
+C00638,2023-06-11,Occasional,Referral
+C00639,2022-01-14,Enthusiast,Social
+C00640,2023-05-25,Regular,Referral
+C00641,2023-03-26,Enthusiast,Organic search
+C00642,2023-06-17,Occasional,Direct
+C00643,2023-03-26,Enthusiast,Direct
+C00644,2023-05-31,Occasional,Organic search
+C00645,2022-02-13,Occasional,Referral
+C00646,2022-09-05,Regular,Paid search
+C00647,2022-10-22,Regular,Organic search
+C00648,2023-07-03,Enthusiast,Organic search
+C00649,2022-03-26,Occasional,Paid search
+C00650,2023-12-06,Occasional,Organic search
+C00651,2022-01-22,Regular,Organic search
+C00652,2022-02-01,Occasional,Social
+C00653,2022-12-04,Regular,Paid search
+C00654,2023-07-12,Occasional,Organic search
+C00655,2024-01-31,Occasional,Direct
+C00656,2023-12-05,Occasional,Organic search
+C00657,2024-04-15,Occasional,Direct
+C00658,2024-03-07,Occasional,Organic search
+C00659,2022-05-12,Regular,Social
+C00660,2023-10-25,Occasional,Paid search
+C00661,2022-09-24,Enthusiast,Social
+C00662,2022-06-19,Occasional,Organic search
+C00663,2024-06-01,Occasional,Organic search
+C00664,2022-09-03,Occasional,Referral
+C00665,2022-02-17,Enthusiast,Referral
+C00666,2024-01-17,Occasional,Organic search
+C00667,2022-08-04,Occasional,Paid search
+C00668,2023-07-28,Regular,Organic search
+C00669,2024-02-01,Regular,Direct
+C00670,2022-09-13,Enthusiast,Organic search
+C00671,2022-04-13,Regular,Social
+C00672,2022-05-30,Occasional,Paid search
+C00673,2023-04-08,Regular,Referral
+C00674,2023-05-24,Enthusiast,Referral
+C00675,2022-05-30,Occasional,Referral
+C00676,2024-03-31,Regular,Organic search
+C00677,2022-07-30,Regular,Referral
+C00678,2022-01-26,Regular,Referral
+C00679,2023-03-10,Regular,Organic search
+C00680,2023-01-17,Occasional,Direct
+C00681,2024-06-08,Occasional,Direct
+C00682,2022-09-23,Enthusiast,Referral
+C00683,2023-02-08,Regular,Social
+C00684,2024-03-13,Occasional,Organic search
+C00685,2022-07-25,Regular,Direct
+C00686,2023-08-12,Occasional,Direct
+C00687,2022-03-26,Regular,Paid search
+C00688,2022-11-11,Occasional,Referral
+C00689,2022-03-23,Regular,Direct
+C00690,2024-01-03,Occasional,Paid search
+C00691,2022-07-02,Occasional,Organic search
+C00692,2023-03-20,Occasional,Organic search
+C00693,2022-07-18,Occasional,Referral
+C00694,2022-12-07,Enthusiast,Referral
+C00695,2024-06-06,Occasional,Referral
+C00696,2023-09-03,Regular,Referral
+C00697,2024-03-17,Enthusiast,Referral
+C00698,2024-02-28,Occasional,Organic search
+C00699,2024-01-13,Regular,Referral
+C00700,2024-05-09,Occasional,Paid search
+C00701,2022-08-14,Enthusiast,Paid search
+C00702,2023-09-28,Occasional,Social
+C00703,2024-06-18,Occasional,Organic search
+C00704,2022-11-05,Occasional,Paid search
+C00705,2023-06-21,Occasional,Direct
+C00706,2024-04-11,Regular,Referral
+C00707,2023-04-25,Regular,Referral
+C00708,2022-03-02,Occasional,Social
+C00709,2023-08-18,Occasional,Paid search
+C00710,2023-08-17,Regular,Referral
+C00711,2022-11-15,Regular,Paid search
+C00712,2023-10-22,Occasional,Referral
+C00713,2023-06-15,Occasional,Paid search
+C00714,2022-03-17,Enthusiast,Organic search
+C00715,2022-05-22,Occasional,Referral
+C00716,2024-03-02,Regular,Organic search
+C00717,2023-04-01,Regular,Direct
+C00718,2023-05-27,Occasional,Organic search
+C00719,2022-04-07,Regular,Paid search
+C00720,2023-04-18,Occasional,Organic search
+C00721,2023-05-03,Occasional,Organic search
+C00722,2023-11-16,Regular,Organic search
+C00723,2024-02-28,Occasional,Paid search
+C00724,2022-01-27,Regular,Social
+C00725,2022-07-30,Regular,Referral
+C00726,2024-04-19,Occasional,Direct
+C00727,2023-01-31,Occasional,Organic search
+C00728,2022-04-17,Occasional,Social
+C00729,2023-07-25,Regular,Organic search
+C00730,2024-06-30,Regular,Referral
+C00731,2024-06-01,Regular,Referral
+C00732,2022-03-12,Regular,Organic search
+C00733,2023-05-27,Occasional,Referral
+C00734,2023-11-07,Occasional,Direct
+C00735,2022-04-20,Occasional,Referral
+C00736,2023-12-18,Occasional,Referral
+C00737,2024-05-19,Occasional,Direct
+C00738,2022-12-31,Regular,Referral
+C00739,2022-08-10,Regular,Social
+C00740,2024-01-18,Occasional,Organic search
+C00741,2022-06-29,Regular,Referral
+C00742,2024-05-28,Occasional,Direct
+C00743,2022-07-22,Regular,Direct
+C00744,2022-11-14,Occasional,Organic search
+C00745,2023-06-11,Regular,Social
+C00746,2023-09-24,Occasional,Organic search
+C00747,2022-01-27,Occasional,Referral
+C00748,2022-05-11,Regular,Organic search
+C00749,2022-05-20,Occasional,Referral
+C00750,2023-10-15,Occasional,Referral
+C00751,2023-08-24,Enthusiast,Organic search
+C00752,2022-06-12,Regular,Paid search
+C00753,2022-12-19,Occasional,Organic search
+C00754,2023-02-24,Occasional,Social
+C00755,2023-08-19,Enthusiast,Referral
+C00756,2022-01-17,Occasional,Paid search
+C00757,2023-06-30,Regular,Social
+C00758,2023-06-27,Occasional,Paid search
+C00759,2022-08-26,Regular,Paid search
+C00760,2024-06-27,Occasional,Direct
+C00761,2023-04-06,Occasional,Organic search
+C00762,2022-08-16,Occasional,Referral
+C00763,2022-04-11,Enthusiast,Social
+C00764,2024-01-01,Regular,Organic search
+C00765,2024-06-25,Occasional,Organic search
+C00766,2023-11-27,Occasional,Paid search
+C00767,2024-04-29,Enthusiast,Direct
+C00768,2023-04-26,Regular,Organic search
+C00769,2023-07-23,Enthusiast,Referral
+C00770,2023-07-12,Occasional,Organic search
+C00771,2023-04-06,Regular,Social
+C00772,2023-08-19,Regular,Social
+C00773,2023-12-10,Occasional,Organic search
+C00774,2022-02-26,Regular,Paid search
+C00775,2023-03-30,Regular,Paid search
+C00776,2023-08-09,Occasional,Referral
+C00777,2022-06-19,Regular,Paid search
+C00778,2023-01-22,Regular,Social
+C00779,2022-07-13,Occasional,Direct
+C00780,2023-07-05,Regular,Organic search
+C00781,2022-11-18,Occasional,Referral
+C00782,2022-06-11,Regular,Organic search
+C00783,2022-07-24,Occasional,Paid search
+C00784,2024-01-30,Occasional,Referral
+C00785,2022-03-22,Occasional,Paid search
+C00786,2022-09-28,Occasional,Paid search
+C00787,2022-03-29,Occasional,Paid search
+C00788,2023-06-24,Enthusiast,Social
+C00789,2022-11-23,Regular,Paid search
+C00790,2022-08-19,Regular,Paid search
+C00791,2022-05-02,Occasional,Social
+C00792,2023-06-11,Occasional,Paid search
+C00793,2023-06-12,Occasional,Direct
+C00794,2022-11-01,Occasional,Paid search
+C00795,2022-07-22,Occasional,Organic search
+C00796,2024-04-22,Regular,Paid search
+C00797,2023-03-15,Occasional,Referral
+C00798,2024-05-02,Occasional,Organic search
+C00799,2023-07-30,Occasional,Organic search
+C00800,2022-09-13,Regular,Organic search
+C00801,2022-02-15,Enthusiast,Organic search
+C00802,2022-02-01,Regular,Organic search
+C00803,2022-10-13,Regular,Direct
+C00804,2023-03-06,Occasional,Paid search
+C00805,2022-09-13,Occasional,Referral
+C00806,2023-06-22,Enthusiast,Referral
+C00807,2022-01-07,Enthusiast,Organic search
+C00808,2023-06-02,Enthusiast,Paid search
+C00809,2024-04-29,Regular,Referral
+C00810,2023-06-29,Regular,Paid search
+C00811,2024-06-22,Occasional,Referral
+C00812,2022-12-02,Regular,Paid search
+C00813,2022-06-20,Enthusiast,Organic search
+C00814,2023-04-28,Regular,Social
+C00815,2022-12-15,Occasional,Organic search
+C00816,2023-11-24,Occasional,Direct
+C00817,2024-02-20,Enthusiast,Paid search
+C00818,2023-12-02,Occasional,Organic search
+C00819,2023-06-07,Occasional,Organic search
+C00820,2022-02-16,Occasional,Organic search
+C00821,2024-06-18,Regular,Paid search
+C00822,2023-06-28,Occasional,Social
+C00823,2023-06-21,Occasional,Referral
+C00824,2022-01-21,Regular,Organic search
+C00825,2022-06-05,Regular,Organic search
+C00826,2022-11-10,Regular,Paid search
+C00827,2023-12-12,Occasional,Direct
+C00828,2022-02-02,Enthusiast,Social
+C00829,2022-02-03,Occasional,Organic search
+C00830,2023-10-17,Regular,Paid search
+C00831,2023-04-26,Regular,Organic search
+C00832,2022-04-07,Regular,Social
+C00833,2022-07-12,Occasional,Organic search
+C00834,2022-06-28,Occasional,Social
+C00835,2022-05-26,Occasional,Paid search
+C00836,2023-12-14,Enthusiast,Organic search
+C00837,2022-09-28,Occasional,Organic search
+C00838,2024-03-24,Enthusiast,Referral
+C00839,2023-07-16,Occasional,Paid search
+C00840,2022-01-15,Regular,Paid search
+C00841,2023-12-15,Regular,Direct
+C00842,2022-09-05,Regular,Direct
+C00843,2022-11-05,Occasional,Referral
+C00844,2023-07-21,Occasional,Referral
+C00845,2023-04-02,Regular,Paid search
+C00846,2022-11-20,Regular,Paid search
+C00847,2022-02-25,Occasional,Direct
+C00848,2023-12-19,Occasional,Organic search
+C00849,2022-05-12,Occasional,Direct
+C00850,2023-07-02,Occasional,Paid search
+C00851,2024-01-07,Occasional,Paid search
+C00852,2022-01-13,Regular,Social
+C00853,2022-12-19,Enthusiast,Paid search
+C00854,2022-08-03,Regular,Organic search
+C00855,2024-04-07,Occasional,Referral
+C00856,2023-03-05,Enthusiast,Direct
+C00857,2023-04-03,Occasional,Paid search
+C00858,2023-11-17,Regular,Social
+C00859,2022-04-01,Enthusiast,Paid search
+C00860,2022-05-07,Regular,Social
+C00861,2023-10-03,Occasional,Referral
+C00862,2023-07-28,Regular,Referral
+C00863,2022-05-17,Regular,Organic search
+C00864,2023-04-12,Occasional,Social
+C00865,2022-11-22,Regular,Referral
+C00866,2023-09-23,Regular,Direct
+C00867,2024-04-12,Regular,Paid search
+C00868,2023-09-22,Regular,Paid search
+C00869,2024-06-07,Enthusiast,Referral
+C00870,2023-05-12,Enthusiast,Social
+C00871,2023-10-12,Regular,Organic search
+C00872,2023-03-04,Regular,Social
+C00873,2023-02-26,Occasional,Organic search
+C00874,2023-11-16,Occasional,Paid search
+C00875,2022-08-14,Regular,Organic search
+C00876,2023-05-25,Occasional,Paid search
+C00877,2024-03-31,Regular,Paid search
+C00878,2024-03-12,Occasional,Direct
+C00879,2023-09-16,Regular,Organic search
+C00880,2022-10-29,Regular,Direct
+C00881,2022-01-20,Occasional,Paid search
+C00882,2022-10-25,Occasional,Paid search
+C00883,2023-11-14,Regular,Organic search
+C00884,2023-03-14,Regular,Paid search
+C00885,2023-03-09,Occasional,Direct
+C00886,2023-08-03,Regular,Paid search
+C00887,2022-12-25,Enthusiast,Organic search
+C00888,2022-08-29,Occasional,Organic search
+C00889,2022-09-28,Enthusiast,Organic search
+C00890,2023-01-09,Occasional,Social
+C00891,2022-02-17,Occasional,Direct
+C00892,2024-06-01,Regular,Referral
+C00893,2022-04-24,Enthusiast,Referral
+C00894,2022-04-04,Regular,Organic search
+C00895,2022-01-27,Occasional,Referral
+C00896,2022-06-01,Enthusiast,Paid search
+C00897,2022-01-01,Occasional,Organic search
+C00898,2024-05-18,Occasional,Organic search
+C00899,2022-03-18,Occasional,Social
+C00900,2022-10-04,Occasional,Referral
+C00901,2023-07-11,Occasional,Organic search
+C00902,2023-02-06,Regular,Referral
+C00903,2022-11-28,Regular,Referral
+C00904,2022-08-09,Regular,Paid search
+C00905,2024-01-08,Regular,Social
+C00906,2024-01-26,Occasional,Referral
+C00907,2022-04-10,Enthusiast,Organic search
+C00908,2024-03-09,Regular,Paid search
+C00909,2022-05-14,Enthusiast,Organic search
+C00910,2023-04-01,Regular,Social
+C00911,2022-01-30,Regular,Social
+C00912,2023-12-02,Regular,Referral
+C00913,2022-10-19,Occasional,Social
+C00914,2022-04-29,Occasional,Direct
+C00915,2022-10-28,Regular,Direct
+C00916,2022-01-31,Occasional,Paid search
+C00917,2023-02-07,Regular,Referral
+C00918,2022-08-29,Occasional,Referral
+C00919,2022-12-24,Regular,Organic search
+C00920,2022-12-31,Regular,Referral
+C00921,2022-11-26,Enthusiast,Paid search
+C00922,2023-08-31,Regular,Referral
+C00923,2022-07-28,Regular,Direct
+C00924,2023-11-04,Enthusiast,Paid search
+C00925,2022-03-26,Occasional,Paid search
+C00926,2022-12-21,Occasional,Organic search
+C00927,2022-11-12,Regular,Social
+C00928,2024-04-25,Enthusiast,Paid search
+C00929,2022-11-29,Occasional,Organic search
+C00930,2023-05-25,Regular,Organic search
+C00931,2022-05-16,Enthusiast,Social
+C00932,2022-02-20,Regular,Referral
+C00933,2023-05-22,Occasional,Social
+C00934,2024-06-02,Enthusiast,Paid search
+C00935,2023-07-26,Occasional,Referral
+C00936,2023-08-15,Regular,Paid search
+C00937,2024-02-07,Occasional,Paid search
+C00938,2023-06-03,Occasional,Organic search
+C00939,2022-05-18,Regular,Referral
+C00940,2024-03-21,Regular,Referral
+C00941,2022-12-02,Occasional,Paid search
+C00942,2023-12-24,Occasional,Referral
+C00943,2022-01-05,Occasional,Direct
+C00944,2024-06-04,Occasional,Organic search
+C00945,2024-01-14,Regular,Paid search
+C00946,2022-05-12,Enthusiast,Referral
+C00947,2023-02-02,Regular,Paid search
+C00948,2023-05-03,Occasional,Direct
+C00949,2022-10-24,Occasional,Direct
+C00950,2022-07-29,Occasional,Paid search
+C00951,2022-04-09,Occasional,Referral
+C00952,2023-03-23,Regular,Organic search
+C00953,2022-09-16,Occasional,Organic search
+C00954,2023-04-02,Occasional,Direct
+C00955,2024-03-12,Occasional,Paid search
+C00956,2022-07-10,Enthusiast,Organic search
+C00957,2023-04-11,Regular,Organic search
+C00958,2023-03-14,Occasional,Referral
+C00959,2022-08-12,Occasional,Paid search
+C00960,2024-04-07,Enthusiast,Social
+C00961,2023-08-09,Enthusiast,Organic search
+C00962,2023-10-24,Occasional,Referral
+C00963,2022-09-10,Occasional,Social
+C00964,2022-01-02,Regular,Paid search
+C00965,2023-10-16,Regular,Paid search
+C00966,2023-05-10,Enthusiast,Organic search
+C00967,2024-06-09,Regular,Organic search
+C00968,2022-10-28,Occasional,Referral
+C00969,2022-12-11,Occasional,Direct
+C00970,2023-12-31,Enthusiast,Organic search
+C00971,2022-09-29,Regular,Organic search
+C00972,2023-12-22,Regular,Organic search
+C00973,2022-08-15,Occasional,Organic search
+C00974,2023-01-17,Enthusiast,Referral
+C00975,2023-05-23,Enthusiast,Paid search
+C00976,2023-03-14,Occasional,Referral
+C00977,2022-06-13,Occasional,Direct
+C00978,2023-01-26,Enthusiast,Direct
+C00979,2023-06-28,Regular,Direct
+C00980,2023-07-13,Occasional,Direct
+C00981,2023-02-07,Occasional,Social
+C00982,2022-03-07,Occasional,Direct
+C00983,2022-01-13,Occasional,Organic search
+C00984,2024-02-28,Occasional,Social
+C00985,2023-08-15,Regular,Direct
+C00986,2023-03-29,Occasional,Paid search
+C00987,2024-03-27,Regular,Referral
+C00988,2023-01-06,Occasional,Social
+C00989,2023-09-19,Enthusiast,Direct
+C00990,2022-10-15,Regular,Social
+C00991,2022-02-11,Regular,Referral
+C00992,2024-02-10,Occasional,Paid search
+C00993,2022-10-18,Occasional,Direct
+C00994,2023-05-17,Occasional,Referral
+C00995,2022-05-21,Regular,Organic search
+C00996,2023-10-22,Regular,Referral
+C00997,2023-12-01,Regular,Referral
+C00998,2022-03-31,Occasional,Organic search
+C00999,2024-01-05,Occasional,Social
+C01000,2022-09-17,Regular,Referral
+C01001,2022-03-13,Occasional,Organic search
+C01002,2023-07-26,Enthusiast,Organic search
+C01003,2023-11-28,Occasional,Referral
+C01004,2023-02-06,Enthusiast,Organic search
+C01005,2022-10-16,Enthusiast,Paid search
+C01006,2023-03-30,Occasional,Social
+C01007,2024-04-10,Occasional,Referral
+C01008,2022-11-14,Occasional,Referral
+C01009,2022-04-08,Occasional,Organic search
+C01010,2023-09-22,Occasional,Paid search
+C01011,2023-02-13,Regular,Organic search
+C01012,2022-12-08,Regular,Social
+C01013,2023-08-18,Enthusiast,Organic search
+C01014,2022-05-21,Regular,Organic search
+C01015,2023-01-02,Regular,Organic search
+C01016,2022-02-01,Regular,Paid search
+C01017,2024-04-24,Regular,Referral
+C01018,2023-08-09,Occasional,Direct
+C01019,2022-03-23,Occasional,Organic search
+C01020,2023-05-21,Occasional,Organic search
+C01021,2024-03-18,Occasional,Organic search
+C01022,2023-06-08,Enthusiast,Social
+C01023,2023-09-19,Regular,Organic search
+C01024,2024-06-11,Occasional,Referral
+C01025,2022-02-10,Occasional,Direct
+C01026,2022-09-29,Regular,Direct
+C01027,2023-12-18,Occasional,Social
+C01028,2022-09-04,Occasional,Organic search
+C01029,2022-03-10,Enthusiast,Social
+C01030,2022-03-11,Occasional,Paid search
+C01031,2024-02-04,Enthusiast,Referral
+C01032,2022-11-03,Enthusiast,Direct
+C01033,2023-11-07,Occasional,Paid search
+C01034,2022-05-01,Occasional,Referral
+C01035,2022-08-12,Regular,Direct
+C01036,2022-09-23,Occasional,Paid search
+C01037,2024-05-02,Regular,Referral
+C01038,2024-02-14,Regular,Organic search
+C01039,2022-05-03,Occasional,Social
+C01040,2023-04-03,Occasional,Social
+C01041,2022-08-07,Occasional,Direct
+C01042,2023-06-26,Occasional,Paid search
+C01043,2023-08-19,Regular,Direct
+C01044,2022-09-01,Occasional,Referral
+C01045,2022-10-31,Regular,Paid search
+C01046,2022-12-21,Regular,Social
+C01047,2022-12-15,Occasional,Referral
+C01048,2023-10-16,Occasional,Referral
+C01049,2023-11-24,Regular,Organic search
+C01050,2022-01-04,Regular,Organic search
+C01051,2023-04-13,Regular,Direct
+C01052,2023-05-17,Enthusiast,Organic search
+C01053,2023-10-27,Enthusiast,Referral
+C01054,2023-01-02,Occasional,Organic search
+C01055,2024-01-04,Regular,Referral
+C01056,2024-01-09,Occasional,Paid search
+C01057,2022-01-07,Regular,Organic search
+C01058,2022-03-13,Occasional,Organic search
+C01059,2022-08-04,Enthusiast,Direct
+C01060,2022-07-21,Regular,Direct
+C01061,2022-11-07,Regular,Organic search
+C01062,2023-12-20,Occasional,Organic search
+C01063,2024-02-05,Enthusiast,Direct
+C01064,2022-11-03,Enthusiast,Organic search
+C01065,2022-09-23,Occasional,Paid search
+C01066,2022-02-06,Occasional,Organic search
+C01067,2023-10-29,Regular,Social
+C01068,2023-06-03,Regular,Referral
+C01069,2022-11-21,Occasional,Social
+C01070,2024-04-17,Regular,Social
+C01071,2023-03-30,Occasional,Social
+C01072,2024-05-31,Enthusiast,Referral
+C01073,2022-09-05,Occasional,Social
+C01074,2023-05-11,Occasional,Paid search
+C01075,2022-08-30,Enthusiast,Organic search
+C01076,2022-08-26,Regular,Organic search
+C01077,2023-10-26,Regular,Direct
+C01078,2022-03-14,Regular,Direct
+C01079,2023-10-14,Occasional,Direct
+C01080,2023-06-02,Regular,Referral
+C01081,2022-08-23,Occasional,Direct
+C01082,2024-01-05,Occasional,Direct
+C01083,2022-02-19,Regular,Social
+C01084,2024-03-27,Occasional,Referral
+C01085,2022-05-02,Occasional,Social
+C01086,2024-02-16,Occasional,Referral
+C01087,2023-02-27,Occasional,Referral
+C01088,2022-06-07,Regular,Direct
+C01089,2023-01-04,Regular,Organic search
+C01090,2023-07-21,Regular,Organic search
+C01091,2023-05-05,Occasional,Direct
+C01092,2024-06-12,Enthusiast,Organic search
+C01093,2023-11-17,Regular,Referral
+C01094,2024-02-04,Occasional,Referral
+C01095,2022-08-23,Regular,Paid search
+C01096,2023-01-15,Occasional,Direct
+C01097,2022-04-05,Occasional,Organic search
+C01098,2022-07-06,Enthusiast,Organic search
+C01099,2022-11-10,Occasional,Referral
+C01100,2023-04-30,Occasional,Direct
+C01101,2024-04-16,Enthusiast,Paid search
+C01102,2023-01-27,Occasional,Paid search
+C01103,2022-09-10,Occasional,Referral
+C01104,2022-01-02,Regular,Direct
+C01105,2022-04-17,Occasional,Referral
+C01106,2023-07-29,Occasional,Organic search
+C01107,2024-04-29,Occasional,Referral
+C01108,2023-01-14,Occasional,Paid search
+C01109,2022-05-19,Occasional,Organic search
+C01110,2024-06-20,Occasional,Paid search
+C01111,2024-06-03,Regular,Paid search
+C01112,2022-07-05,Occasional,Direct
+C01113,2023-04-08,Regular,Organic search
+C01114,2022-10-19,Occasional,Direct
+C01115,2023-03-21,Occasional,Direct
+C01116,2023-10-08,Regular,Referral
+C01117,2023-02-17,Occasional,Paid search
+C01118,2022-01-29,Regular,Direct
+C01119,2023-04-04,Enthusiast,Paid search
+C01120,2023-06-22,Regular,Paid search
+C01121,2022-10-24,Occasional,Social
+C01122,2024-05-15,Regular,Organic search
+C01123,2022-12-25,Regular,Paid search
+C01124,2022-09-15,Enthusiast,Organic search
+C01125,2022-11-17,Enthusiast,Direct
+C01126,2022-12-02,Regular,Referral
+C01127,2023-12-26,Occasional,Organic search
+C01128,2022-12-06,Occasional,Referral
+C01129,2024-05-11,Enthusiast,Direct
+C01130,2024-05-30,Regular,Paid search
+C01131,2022-05-25,Enthusiast,Paid search
+C01132,2022-12-28,Occasional,Organic search
+C01133,2023-05-22,Enthusiast,Paid search
+C01134,2023-08-31,Occasional,Paid search
+C01135,2023-08-06,Enthusiast,Organic search
+C01136,2022-12-29,Occasional,Paid search
+C01137,2023-02-09,Regular,Organic search
+C01138,2022-03-03,Occasional,Organic search
+C01139,2022-11-06,Regular,Paid search
+C01140,2022-12-22,Occasional,Organic search
+C01141,2022-05-15,Regular,Direct
+C01142,2022-02-17,Regular,Direct
+C01143,2024-03-01,Regular,Organic search
+C01144,2023-11-27,Occasional,Paid search
+C01145,2023-05-01,Occasional,Organic search
+C01146,2023-04-14,Occasional,Direct
+C01147,2022-06-01,Regular,Referral
+C01148,2023-11-24,Occasional,Referral
+C01149,2023-09-22,Regular,Direct
+C01150,2022-09-17,Enthusiast,Organic search
+C01151,2022-03-13,Occasional,Paid search
+C01152,2023-05-26,Occasional,Paid search
+C01153,2022-01-05,Occasional,Direct
+C01154,2022-01-10,Occasional,Paid search
+C01155,2024-05-20,Occasional,Social
+C01156,2023-12-02,Occasional,Direct
+C01157,2022-04-23,Enthusiast,Direct
+C01158,2023-03-02,Occasional,Paid search
+C01159,2024-04-01,Occasional,Referral
+C01160,2023-10-15,Occasional,Referral
+C01161,2022-07-21,Occasional,Paid search
+C01162,2022-06-22,Regular,Paid search
+C01163,2023-10-15,Occasional,Social
+C01164,2023-07-20,Occasional,Social
+C01165,2022-12-09,Enthusiast,Social
+C01166,2024-03-31,Occasional,Referral
+C01167,2023-10-06,Regular,Paid search
+C01168,2022-05-30,Occasional,Paid search
+C01169,2022-05-14,Enthusiast,Referral
+C01170,2022-09-29,Regular,Paid search
+C01171,2022-10-04,Occasional,Referral
+C01172,2023-06-12,Occasional,Direct
+C01173,2023-05-26,Occasional,Referral
+C01174,2024-03-15,Regular,Organic search
+C01175,2023-01-15,Occasional,Social
+C01176,2023-10-20,Occasional,Direct
+C01177,2022-05-27,Occasional,Referral
+C01178,2023-01-02,Occasional,Organic search
+C01179,2022-09-20,Occasional,Organic search
+C01180,2023-06-23,Enthusiast,Organic search
+C01181,2024-03-29,Occasional,Referral
+C01182,2023-09-19,Occasional,Organic search
+C01183,2022-10-10,Occasional,Organic search
+C01184,2022-07-17,Regular,Organic search
+C01185,2022-07-06,Occasional,Paid search
+C01186,2022-09-22,Occasional,Direct
+C01187,2022-07-16,Regular,Organic search
+C01188,2023-09-23,Enthusiast,Organic search
+C01189,2022-09-25,Regular,Organic search
+C01190,2022-11-25,Occasional,Paid search
+C01191,2022-03-18,Regular,Direct
+C01192,2023-01-22,Regular,Direct
+C01193,2022-09-13,Regular,Organic search
+C01194,2024-03-21,Occasional,Paid search
+C01195,2023-09-13,Regular,Referral
+C01196,2023-07-28,Occasional,Social
+C01197,2023-10-23,Occasional,Paid search
+C01198,2024-04-15,Occasional,Direct
+C01199,2023-06-29,Occasional,Organic search
+C01200,2022-03-26,Occasional,Organic search
+C01201,2023-11-04,Occasional,Organic search
+C01202,2023-04-05,Regular,Direct
+C01203,2023-07-01,Occasional,Paid search
+C01204,2023-09-14,Occasional,Organic search
+C01205,2022-01-01,Enthusiast,Organic search
+C01206,2022-12-08,Enthusiast,Organic search
+C01207,2022-08-27,Occasional,Direct
+C01208,2022-03-17,Enthusiast,Organic search
+C01209,2022-12-07,Regular,Social
+C01210,2023-09-30,Occasional,Social
+C01211,2023-11-02,Regular,Direct
+C01212,2022-09-02,Regular,Organic search
+C01213,2024-01-06,Enthusiast,Organic search
+C01214,2024-02-11,Occasional,Social
+C01215,2024-04-19,Occasional,Referral
+C01216,2023-11-30,Regular,Organic search
+C01217,2022-07-02,Occasional,Paid search
+C01218,2023-05-08,Occasional,Organic search
+C01219,2024-05-05,Occasional,Organic search
+C01220,2022-09-13,Regular,Paid search
+C01221,2023-05-28,Occasional,Referral
+C01222,2022-06-28,Regular,Organic search
+C01223,2022-07-22,Regular,Social
+C01224,2022-11-14,Occasional,Organic search
+C01225,2024-04-08,Occasional,Organic search
+C01226,2023-10-14,Occasional,Organic search
+C01227,2022-03-21,Occasional,Referral
+C01228,2024-03-10,Regular,Paid search
+C01229,2022-01-24,Regular,Social
+C01230,2022-05-17,Occasional,Paid search
+C01231,2022-11-03,Regular,Paid search
+C01232,2023-12-04,Regular,Referral
+C01233,2024-04-19,Enthusiast,Referral
+C01234,2022-06-23,Enthusiast,Referral
+C01235,2022-04-11,Enthusiast,Organic search
+C01236,2022-10-05,Regular,Referral
+C01237,2024-06-20,Occasional,Paid search
+C01238,2023-04-28,Regular,Direct
+C01239,2023-11-16,Regular,Referral
+C01240,2023-03-06,Occasional,Social
+C01241,2024-04-15,Regular,Organic search
+C01242,2022-08-25,Enthusiast,Referral
+C01243,2023-01-25,Regular,Organic search
+C01244,2022-09-06,Occasional,Social
+C01245,2022-11-08,Regular,Organic search
+C01246,2023-01-29,Occasional,Organic search
+C01247,2022-04-06,Occasional,Paid search
+C01248,2023-04-10,Occasional,Paid search
+C01249,2024-02-19,Enthusiast,Referral
+C01250,2022-04-16,Occasional,Paid search
+C01251,2023-12-14,Occasional,Organic search
+C01252,2024-05-01,Occasional,Organic search
+C01253,2022-02-24,Occasional,Paid search
+C01254,2022-05-03,Regular,Social
+C01255,2023-01-16,Occasional,Paid search
+C01256,2023-07-06,Regular,Social
+C01257,2023-11-11,Occasional,Direct
+C01258,2023-12-01,Enthusiast,Direct
+C01259,2022-10-11,Enthusiast,Paid search
+C01260,2024-01-15,Enthusiast,Organic search
+C01261,2022-03-16,Occasional,Referral
+C01262,2023-10-14,Regular,Organic search
+C01263,2023-06-21,Regular,Direct
+C01264,2022-04-18,Occasional,Paid search
+C01265,2024-06-26,Occasional,Paid search
+C01266,2022-01-23,Occasional,Direct
+C01267,2024-06-06,Regular,Referral
+C01268,2023-03-06,Occasional,Organic search
+C01269,2023-03-21,Occasional,Organic search
+C01270,2022-09-06,Occasional,Social
+C01271,2024-03-05,Occasional,Social
+C01272,2023-07-07,Occasional,Social
+C01273,2023-11-28,Occasional,Organic search
+C01274,2024-02-14,Occasional,Direct
+C01275,2023-06-17,Regular,Paid search
+C01276,2022-01-23,Regular,Referral
+C01277,2022-10-25,Enthusiast,Paid search
+C01278,2024-06-11,Occasional,Referral
+C01279,2023-07-09,Regular,Social
+C01280,2023-08-11,Enthusiast,Paid search
+C01281,2023-10-01,Enthusiast,Paid search
+C01282,2023-08-19,Occasional,Direct
+C01283,2024-06-28,Occasional,Paid search
+C01284,2023-06-20,Regular,Paid search
+C01285,2022-03-03,Occasional,Paid search
+C01286,2023-08-09,Regular,Organic search
+C01287,2022-12-14,Regular,Organic search
+C01288,2023-05-30,Regular,Referral
+C01289,2023-03-09,Occasional,Organic search
+C01290,2023-11-22,Occasional,Paid search
+C01291,2022-08-01,Occasional,Organic search
+C01292,2023-04-26,Occasional,Referral
+C01293,2022-04-03,Regular,Paid search
+C01294,2023-10-12,Regular,Organic search
+C01295,2024-04-22,Occasional,Social
+C01296,2023-12-14,Occasional,Organic search
+C01297,2022-01-12,Regular,Referral
+C01298,2023-12-24,Regular,Social
+C01299,2023-02-27,Regular,Referral
+C01300,2022-07-15,Enthusiast,Referral
+C01301,2022-08-19,Regular,Paid search
+C01302,2022-09-29,Occasional,Direct
+C01303,2023-08-07,Occasional,Organic search
+C01304,2024-06-09,Occasional,Organic search
+C01305,2022-08-18,Regular,Referral
+C01306,2023-07-27,Regular,Social
+C01307,2022-05-16,Regular,Organic search
+C01308,2023-03-05,Occasional,Organic search
+C01309,2023-06-07,Occasional,Direct
+C01310,2023-05-02,Regular,Direct
+C01311,2023-01-08,Occasional,Organic search
+C01312,2024-05-26,Occasional,Social
+C01313,2024-04-07,Regular,Paid search
+C01314,2023-03-30,Enthusiast,Organic search
+C01315,2023-09-23,Occasional,Direct
+C01316,2023-10-15,Regular,Paid search
+C01317,2024-01-11,Regular,Social
+C01318,2023-08-26,Occasional,Referral
+C01319,2022-08-22,Occasional,Organic search
+C01320,2022-08-19,Occasional,Referral
+C01321,2023-05-27,Occasional,Organic search
+C01322,2022-01-10,Occasional,Organic search
+C01323,2024-01-06,Occasional,Social
+C01324,2023-01-15,Occasional,Direct
+C01325,2023-07-24,Occasional,Social
+C01326,2023-09-22,Occasional,Social
+C01327,2024-02-27,Occasional,Organic search
+C01328,2024-03-04,Occasional,Social
+C01329,2023-12-04,Occasional,Social
+C01330,2022-01-20,Enthusiast,Organic search
+C01331,2024-03-18,Regular,Direct
+C01332,2024-04-15,Enthusiast,Paid search
+C01333,2022-06-04,Occasional,Referral
+C01334,2023-07-12,Enthusiast,Direct
+C01335,2024-01-13,Occasional,Direct
+C01336,2022-09-03,Enthusiast,Referral
+C01337,2022-03-20,Occasional,Paid search
+C01338,2023-03-22,Occasional,Paid search
+C01339,2022-12-18,Regular,Paid search
+C01340,2023-10-02,Occasional,Referral
+C01341,2024-03-15,Occasional,Organic search
+C01342,2023-10-07,Occasional,Direct
+C01343,2024-02-28,Occasional,Paid search
+C01344,2024-06-26,Occasional,Referral
+C01345,2022-09-18,Enthusiast,Organic search
+C01346,2023-06-15,Regular,Organic search
+C01347,2022-09-18,Regular,Paid search
+C01348,2023-02-04,Occasional,Organic search
+C01349,2023-08-08,Enthusiast,Direct
+C01350,2022-06-30,Occasional,Referral
+C01351,2023-04-24,Regular,Paid search
+C01352,2023-01-02,Enthusiast,Referral
+C01353,2022-04-06,Occasional,Organic search
+C01354,2023-02-10,Enthusiast,Paid search
+C01355,2024-02-24,Regular,Referral
+C01356,2023-05-15,Occasional,Organic search
+C01357,2022-04-26,Regular,Referral
+C01358,2022-09-22,Regular,Organic search
+C01359,2022-06-19,Occasional,Paid search
+C01360,2022-05-14,Regular,Paid search
+C01361,2022-05-09,Regular,Organic search
+C01362,2023-12-28,Regular,Referral
+C01363,2022-07-01,Occasional,Referral
+C01364,2024-04-26,Occasional,Direct
+C01365,2023-11-15,Occasional,Paid search
+C01366,2023-09-14,Regular,Paid search
+C01367,2022-08-26,Occasional,Social
+C01368,2022-07-06,Regular,Organic search
+C01369,2023-07-23,Regular,Organic search
+C01370,2022-12-08,Regular,Organic search
+C01371,2023-07-13,Enthusiast,Organic search
+C01372,2023-04-01,Enthusiast,Direct
+C01373,2024-04-26,Occasional,Organic search
+C01374,2022-11-24,Enthusiast,Organic search
+C01375,2023-11-25,Occasional,Paid search
+C01376,2022-08-29,Regular,Organic search
+C01377,2022-11-05,Regular,Direct
+C01378,2022-08-05,Regular,Organic search
+C01379,2023-09-21,Occasional,Paid search
+C01380,2022-04-02,Enthusiast,Direct
+C01381,2023-04-10,Occasional,Referral
+C01382,2023-11-28,Regular,Direct
+C01383,2022-09-16,Occasional,Organic search
+C01384,2022-11-27,Occasional,Paid search
+C01385,2023-09-08,Occasional,Social
+C01386,2024-04-11,Occasional,Paid search
+C01387,2022-01-07,Occasional,Paid search
+C01388,2023-02-22,Occasional,Organic search
+C01389,2023-10-01,Occasional,Organic search
+C01390,2022-05-30,Enthusiast,Paid search
+C01391,2023-06-17,Occasional,Direct
+C01392,2022-06-18,Regular,Paid search
+C01393,2023-07-15,Occasional,Paid search
+C01394,2022-06-17,Regular,Organic search
+C01395,2024-01-04,Occasional,Direct
+C01396,2024-02-25,Occasional,Organic search
+C01397,2024-01-19,Occasional,Paid search
+C01398,2023-03-25,Occasional,Social
+C01399,2023-05-15,Regular,Organic search
+C01400,2022-12-21,Regular,Social
+C01401,2023-08-26,Enthusiast,Paid search
+C01402,2023-05-14,Occasional,Paid search
+C01403,2022-08-23,Regular,Paid search
+C01404,2024-06-09,Enthusiast,Organic search
+C01405,2023-06-02,Occasional,Paid search
+C01406,2023-10-03,Occasional,Referral
+C01407,2024-06-21,Regular,Paid search
+C01408,2024-04-11,Enthusiast,Organic search
+C01409,2022-01-01,Regular,Organic search
+C01410,2022-02-04,Enthusiast,Paid search
+C01411,2022-04-28,Regular,Organic search
+C01412,2023-11-15,Regular,Paid search
+C01413,2022-03-11,Occasional,Organic search
+C01414,2023-12-22,Enthusiast,Social
+C01415,2024-05-08,Regular,Referral
+C01416,2023-06-24,Occasional,Paid search
+C01417,2024-03-25,Regular,Referral
+C01418,2024-04-09,Regular,Organic search
+C01419,2022-06-05,Occasional,Social
+C01420,2023-06-16,Occasional,Direct
+C01421,2023-07-09,Regular,Referral
+C01422,2024-01-01,Occasional,Direct
+C01423,2023-09-24,Occasional,Organic search
+C01424,2023-11-30,Occasional,Referral
+C01425,2022-11-17,Regular,Social
+C01426,2023-08-16,Regular,Organic search
+C01427,2024-01-02,Regular,Paid search
+C01428,2022-05-06,Occasional,Referral
+C01429,2022-09-18,Regular,Organic search
+C01430,2022-12-08,Enthusiast,Paid search
+C01431,2022-11-29,Enthusiast,Organic search
+C01432,2022-09-11,Regular,Referral
+C01433,2023-08-06,Regular,Referral
+C01434,2022-02-24,Occasional,Social
+C01435,2022-04-28,Occasional,Organic search
+C01436,2024-03-11,Occasional,Organic search
+C01437,2024-05-11,Regular,Organic search
+C01438,2023-01-03,Occasional,Paid search
+C01439,2024-04-25,Regular,Referral
+C01440,2022-06-22,Occasional,Paid search
+C01441,2023-12-18,Enthusiast,Direct
+C01442,2022-03-23,Occasional,Referral
+C01443,2022-08-05,Occasional,Referral
+C01444,2022-11-19,Occasional,Referral
+C01445,2022-06-20,Occasional,Organic search
+C01446,2022-10-18,Occasional,Paid search
+C01447,2024-04-15,Occasional,Organic search
+C01448,2022-07-13,Regular,Referral
+C01449,2022-01-22,Regular,Direct
+C01450,2024-03-03,Regular,Referral
+C01451,2022-08-25,Regular,Direct
+C01452,2022-10-15,Regular,Referral
+C01453,2022-04-05,Regular,Organic search
+C01454,2023-10-16,Occasional,Paid search
+C01455,2023-03-21,Regular,Organic search
+C01456,2023-07-12,Regular,Organic search
+C01457,2023-07-09,Regular,Organic search
+C01458,2023-12-22,Occasional,Organic search
+C01459,2023-10-28,Occasional,Referral
+C01460,2022-04-21,Regular,Organic search
+C01461,2023-10-15,Occasional,Paid search
+C01462,2022-02-09,Occasional,Paid search
+C01463,2024-03-15,Regular,Organic search
+C01464,2023-02-07,Regular,Social
+C01465,2022-05-22,Regular,Social
+C01466,2022-02-14,Enthusiast,Social
+C01467,2024-02-09,Enthusiast,Direct
+C01468,2023-09-21,Regular,Paid search
+C01469,2023-11-24,Enthusiast,Paid search
+C01470,2022-07-12,Occasional,Organic search
+C01471,2022-01-26,Regular,Referral
+C01472,2023-12-08,Regular,Paid search
+C01473,2024-03-05,Occasional,Organic search
+C01474,2023-08-22,Enthusiast,Referral
+C01475,2024-05-22,Occasional,Referral
+C01476,2023-01-10,Occasional,Direct
+C01477,2023-03-21,Regular,Paid search
+C01478,2023-06-18,Enthusiast,Referral
+C01479,2023-08-25,Occasional,Referral
+C01480,2023-08-06,Regular,Paid search
+C01481,2022-01-10,Regular,Direct
+C01482,2024-02-28,Regular,Direct
+C01483,2023-06-18,Regular,Organic search
+C01484,2024-06-23,Occasional,Organic search
+C01485,2022-01-14,Occasional,Direct
+C01486,2023-06-08,Occasional,Paid search
+C01487,2024-01-19,Occasional,Organic search
+C01488,2023-11-09,Occasional,Direct
+C01489,2024-04-05,Occasional,Referral
+C01490,2023-08-29,Occasional,Social
+C01491,2022-03-21,Occasional,Paid search
+C01492,2022-02-21,Occasional,Paid search
+C01493,2022-12-27,Occasional,Referral
+C01494,2023-04-06,Regular,Organic search
+C01495,2024-01-05,Occasional,Paid search
+C01496,2022-01-10,Enthusiast,Referral
+C01497,2023-02-09,Regular,Paid search
+C01498,2024-02-22,Occasional,Referral
+C01499,2022-04-27,Regular,Organic search
+C01500,2023-07-23,Enthusiast,Organic search
+C01501,2023-10-04,Occasional,Referral
+C01502,2022-04-09,Enthusiast,Social
+C01503,2022-01-31,Regular,Direct
+C01504,2024-05-09,Enthusiast,Organic search
+C01505,2022-05-01,Occasional,Direct
+C01506,2022-01-23,Regular,Paid search
+C01507,2023-12-10,Regular,Organic search
+C01508,2024-02-01,Regular,Paid search
+C01509,2024-01-08,Occasional,Direct
+C01510,2023-01-27,Occasional,Organic search
+C01511,2023-02-24,Regular,Organic search
+C01512,2022-05-24,Regular,Referral
+C01513,2023-04-04,Occasional,Direct
+C01514,2023-12-23,Enthusiast,Paid search
+C01515,2023-07-02,Occasional,Social
+C01516,2022-12-01,Regular,Referral
+C01517,2024-02-01,Regular,Referral
+C01518,2023-05-03,Occasional,Organic search
+C01519,2024-01-24,Regular,Referral
+C01520,2022-01-04,Regular,Social
+C01521,2024-04-27,Occasional,Paid search
+C01522,2022-01-09,Regular,Referral
+C01523,2022-12-18,Regular,Social
+C01524,2022-11-01,Regular,Paid search
+C01525,2022-01-07,Enthusiast,Organic search
+C01526,2022-03-27,Regular,Organic search
+C01527,2023-11-19,Occasional,Paid search
+C01528,2022-12-25,Occasional,Paid search
+C01529,2022-08-16,Occasional,Organic search
+C01530,2022-02-19,Occasional,Organic search
+C01531,2023-01-14,Regular,Referral
+C01532,2023-12-28,Occasional,Direct
+C01533,2022-04-21,Enthusiast,Organic search
+C01534,2024-04-22,Occasional,Social
+C01535,2023-08-21,Occasional,Paid search
+C01536,2022-06-28,Regular,Paid search
+C01537,2024-04-24,Occasional,Organic search
+C01538,2023-06-09,Regular,Organic search
+C01539,2023-04-30,Regular,Paid search
+C01540,2022-01-23,Occasional,Paid search
+C01541,2023-05-10,Occasional,Organic search
+C01542,2024-04-07,Occasional,Social
+C01543,2024-03-13,Occasional,Referral
+C01544,2022-03-26,Occasional,Organic search
+C01545,2022-02-13,Occasional,Paid search
+C01546,2023-12-05,Regular,Referral
+C01547,2022-06-23,Regular,Paid search
+C01548,2024-02-17,Regular,Paid search
+C01549,2023-12-26,Regular,Organic search
+C01550,2023-08-06,Enthusiast,Referral
+C01551,2024-03-07,Occasional,Social
+C01552,2022-08-02,Occasional,Organic search
+C01553,2022-10-30,Occasional,Paid search
+C01554,2023-09-30,Occasional,Organic search
+C01555,2022-04-16,Enthusiast,Paid search
+C01556,2023-03-23,Regular,Referral
+C01557,2023-09-09,Occasional,Referral
+C01558,2023-04-03,Occasional,Direct
+C01559,2022-07-31,Occasional,Direct
+C01560,2024-05-04,Enthusiast,Paid search
+C01561,2023-06-12,Regular,Social
+C01562,2022-07-23,Occasional,Paid search
+C01563,2022-06-23,Regular,Social
+C01564,2022-03-05,Occasional,Organic search
+C01565,2023-08-27,Enthusiast,Referral
+C01566,2023-10-08,Regular,Referral
+C01567,2022-01-06,Regular,Social
+C01568,2024-01-25,Occasional,Organic search
+C01569,2024-02-29,Occasional,Referral
+C01570,2022-03-09,Regular,Referral
+C01571,2024-02-25,Regular,Organic search
+C01572,2022-01-27,Occasional,Direct
+C01573,2022-06-16,Occasional,Organic search
+C01574,2023-07-21,Occasional,Referral
+C01575,2022-10-28,Enthusiast,Direct
+C01576,2023-01-11,Regular,Organic search
+C01577,2022-05-10,Regular,Social
+C01578,2023-04-19,Occasional,Paid search
+C01579,2022-03-05,Enthusiast,Organic search
+C01580,2022-08-20,Regular,Organic search
+C01581,2022-01-21,Occasional,Referral
+C01582,2023-11-04,Enthusiast,Organic search
+C01583,2023-03-27,Regular,Paid search
+C01584,2023-10-19,Occasional,Organic search
+C01585,2023-02-23,Enthusiast,Referral
+C01586,2024-03-18,Occasional,Organic search
+C01587,2024-04-24,Occasional,Paid search
+C01588,2024-06-12,Occasional,Paid search
+C01589,2022-11-03,Regular,Referral
+C01590,2022-05-31,Occasional,Paid search
+C01591,2023-04-09,Occasional,Referral
+C01592,2023-09-09,Occasional,Organic search
+C01593,2024-06-18,Regular,Direct
+C01594,2024-02-23,Regular,Referral
+C01595,2022-06-03,Occasional,Direct
+C01596,2023-10-29,Occasional,Paid search
+C01597,2023-10-01,Occasional,Direct
+C01598,2022-07-17,Occasional,Organic search
+C01599,2023-07-15,Occasional,Paid search
+C01600,2023-10-18,Occasional,Referral
+C01601,2022-10-12,Occasional,Referral
+C01602,2023-10-14,Regular,Referral
+C01603,2022-02-26,Enthusiast,Referral
+C01604,2022-12-16,Regular,Social
+C01605,2022-01-02,Occasional,Organic search
+C01606,2023-01-23,Regular,Organic search
+C01607,2022-06-06,Regular,Referral
+C01608,2024-06-11,Enthusiast,Direct
+C01609,2022-05-09,Regular,Paid search
+C01610,2023-09-25,Enthusiast,Organic search
+C01611,2022-12-13,Enthusiast,Organic search
+C01612,2023-11-09,Regular,Organic search
+C01613,2024-06-28,Enthusiast,Social
+C01614,2023-03-14,Regular,Paid search
+C01615,2024-03-10,Occasional,Organic search
+C01616,2024-03-23,Occasional,Referral
+C01617,2022-06-13,Regular,Paid search
+C01618,2023-02-25,Occasional,Direct
+C01619,2022-03-15,Enthusiast,Organic search
+C01620,2024-01-11,Occasional,Organic search
+C01621,2023-08-28,Regular,Organic search
+C01622,2024-05-03,Regular,Referral
+C01623,2023-11-09,Occasional,Organic search
+C01624,2022-11-14,Regular,Organic search
+C01625,2024-03-05,Regular,Organic search
+C01626,2023-04-14,Occasional,Organic search
+C01627,2022-12-01,Regular,Paid search
+C01628,2022-10-30,Occasional,Paid search
+C01629,2023-07-17,Regular,Organic search
+C01630,2023-07-18,Occasional,Organic search
+C01631,2022-01-15,Enthusiast,Organic search
+C01632,2023-11-28,Occasional,Paid search
+C01633,2022-07-25,Regular,Social
+C01634,2022-02-19,Occasional,Organic search
+C01635,2023-10-29,Occasional,Paid search
+C01636,2022-06-06,Occasional,Paid search
+C01637,2022-09-20,Occasional,Organic search
+C01638,2022-10-29,Regular,Organic search
+C01639,2022-04-29,Enthusiast,Organic search
+C01640,2023-10-30,Occasional,Direct
+C01641,2022-05-24,Regular,Referral
+C01642,2023-12-15,Occasional,Organic search
+C01643,2023-07-28,Occasional,Referral
+C01644,2024-03-22,Regular,Social
+C01645,2022-02-09,Occasional,Social
+C01646,2022-09-01,Occasional,Direct
+C01647,2022-11-30,Regular,Paid search
+C01648,2024-01-29,Enthusiast,Paid search
+C01649,2022-06-07,Regular,Paid search
+C01650,2022-05-25,Occasional,Paid search
+C01651,2022-03-30,Regular,Referral
+C01652,2023-01-11,Occasional,Direct
+C01653,2022-06-17,Regular,Organic search
+C01654,2023-03-28,Regular,Organic search
+C01655,2023-05-15,Occasional,Paid search
+C01656,2022-12-15,Occasional,Paid search
+C01657,2023-05-16,Occasional,Organic search
+C01658,2022-03-15,Regular,Social
+C01659,2022-08-04,Regular,Referral
+C01660,2022-08-29,Occasional,Organic search
+C01661,2024-02-22,Occasional,Organic search
+C01662,2023-12-05,Occasional,Paid search
+C01663,2024-02-20,Occasional,Referral
+C01664,2022-07-15,Occasional,Direct
+C01665,2023-09-06,Occasional,Referral
+C01666,2022-06-09,Occasional,Organic search
+C01667,2022-01-09,Regular,Paid search
+C01668,2022-08-06,Enthusiast,Paid search
+C01669,2022-11-21,Occasional,Social
+C01670,2023-11-28,Regular,Social
+C01671,2022-05-15,Occasional,Referral
+C01672,2022-04-03,Occasional,Referral
+C01673,2022-03-08,Occasional,Referral
+C01674,2022-09-04,Regular,Direct
+C01675,2024-01-11,Regular,Paid search
+C01676,2022-02-28,Occasional,Organic search
+C01677,2022-07-29,Regular,Referral
+C01678,2023-06-23,Enthusiast,Social
+C01679,2024-05-07,Occasional,Direct
+C01680,2022-04-12,Occasional,Organic search
+C01681,2022-03-30,Occasional,Paid search
+C01682,2024-06-13,Enthusiast,Organic search
+C01683,2024-03-29,Occasional,Organic search
+C01684,2023-09-01,Regular,Social
+C01685,2022-08-07,Regular,Paid search
+C01686,2023-10-24,Regular,Organic search
+C01687,2022-08-15,Regular,Social
+C01688,2023-02-15,Occasional,Direct
+C01689,2023-03-03,Regular,Social
+C01690,2023-08-26,Enthusiast,Direct
+C01691,2022-10-29,Occasional,Organic search
+C01692,2024-02-22,Regular,Social
+C01693,2023-12-01,Occasional,Organic search
+C01694,2022-04-04,Occasional,Organic search
+C01695,2022-11-04,Regular,Referral
+C01696,2023-05-17,Occasional,Organic search
+C01697,2022-06-24,Regular,Organic search
+C01698,2022-04-05,Occasional,Paid search
+C01699,2022-11-13,Occasional,Organic search
+C01700,2024-04-14,Occasional,Organic search
+C01701,2023-04-06,Occasional,Paid search
+C01702,2023-02-27,Occasional,Organic search
+C01703,2022-03-18,Regular,Paid search
+C01704,2023-03-10,Occasional,Social
+C01705,2023-04-11,Regular,Organic search
+C01706,2024-02-07,Regular,Organic search
+C01707,2024-01-23,Occasional,Paid search
+C01708,2024-05-25,Regular,Social
+C01709,2022-11-25,Occasional,Organic search
+C01710,2022-12-28,Regular,Organic search
+C01711,2023-01-19,Enthusiast,Social
+C01712,2022-10-11,Regular,Paid search
+C01713,2022-04-11,Enthusiast,Direct
+C01714,2023-10-04,Occasional,Social
+C01715,2022-07-29,Enthusiast,Referral
+C01716,2024-05-27,Regular,Paid search
+C01717,2023-09-24,Occasional,Direct
+C01718,2024-04-09,Regular,Referral
+C01719,2024-01-09,Occasional,Paid search
+C01720,2022-07-15,Occasional,Paid search
+C01721,2023-05-29,Occasional,Social
+C01722,2023-06-29,Regular,Referral
+C01723,2023-11-01,Regular,Referral
+C01724,2022-05-02,Occasional,Social
+C01725,2022-02-27,Occasional,Social
+C01726,2022-04-28,Occasional,Referral
+C01727,2022-11-09,Regular,Organic search
+C01728,2022-07-18,Enthusiast,Organic search
+C01729,2023-10-09,Regular,Social
+C01730,2022-05-19,Occasional,Direct
+C01731,2023-08-21,Regular,Organic search
+C01732,2024-01-29,Regular,Organic search
+C01733,2023-02-01,Regular,Organic search
+C01734,2023-11-15,Occasional,Referral
+C01735,2023-04-27,Occasional,Direct
+C01736,2023-11-08,Occasional,Organic search
+C01737,2022-10-18,Regular,Referral
+C01738,2024-06-25,Regular,Paid search
+C01739,2023-08-20,Regular,Organic search
+C01740,2022-02-20,Occasional,Social
+C01741,2023-07-01,Occasional,Referral
+C01742,2022-10-01,Regular,Referral
+C01743,2022-05-19,Regular,Referral
+C01744,2023-04-20,Regular,Organic search
+C01745,2022-04-24,Occasional,Paid search
+C01746,2022-05-23,Occasional,Organic search
+C01747,2023-10-07,Regular,Referral
+C01748,2022-10-19,Enthusiast,Organic search
+C01749,2023-04-19,Regular,Referral
+C01750,2022-06-25,Occasional,Paid search
+C01751,2022-07-04,Regular,Organic search
+C01752,2024-05-19,Occasional,Paid search
+C01753,2023-09-09,Occasional,Organic search
+C01754,2024-01-26,Enthusiast,Organic search
+C01755,2022-11-30,Occasional,Organic search
+C01756,2022-09-15,Regular,Organic search
+C01757,2022-05-25,Regular,Paid search
+C01758,2023-08-17,Regular,Organic search
+C01759,2023-12-18,Regular,Referral
+C01760,2022-11-11,Occasional,Paid search
+C01761,2023-05-21,Regular,Direct
+C01762,2023-09-02,Occasional,Direct
+C01763,2023-10-24,Occasional,Social
+C01764,2022-09-15,Occasional,Paid search
+C01765,2022-04-10,Regular,Organic search
+C01766,2023-11-28,Regular,Organic search
+C01767,2022-09-24,Occasional,Paid search
+C01768,2024-01-19,Occasional,Referral
+C01769,2024-06-19,Occasional,Paid search
+C01770,2022-03-22,Occasional,Paid search
+C01771,2022-04-20,Occasional,Direct
+C01772,2024-01-22,Occasional,Paid search
+C01773,2023-04-03,Regular,Social
+C01774,2024-06-04,Occasional,Social
+C01775,2024-06-27,Occasional,Referral
+C01776,2023-05-07,Regular,Organic search
+C01777,2023-10-21,Enthusiast,Organic search
+C01778,2022-05-30,Regular,Paid search
+C01779,2023-01-12,Occasional,Referral
+C01780,2023-09-06,Occasional,Paid search
+C01781,2022-03-27,Occasional,Paid search
+C01782,2022-08-16,Occasional,Paid search
+C01783,2024-01-11,Occasional,Direct
+C01784,2023-02-17,Occasional,Organic search
+C01785,2022-09-10,Regular,Direct
+C01786,2023-02-13,Occasional,Paid search
+C01787,2023-07-30,Regular,Organic search
+C01788,2022-10-10,Regular,Direct
+C01789,2024-02-08,Regular,Referral
+C01790,2023-01-18,Regular,Referral
+C01791,2024-06-21,Enthusiast,Organic search
+C01792,2023-11-07,Occasional,Social
+C01793,2023-06-01,Regular,Referral
+C01794,2022-11-15,Occasional,Organic search
+C01795,2023-02-26,Occasional,Organic search
+C01796,2022-05-01,Enthusiast,Direct
+C01797,2022-09-23,Occasional,Direct
+C01798,2024-06-14,Occasional,Organic search
+C01799,2023-09-29,Occasional,Organic search
+C01800,2022-07-05,Enthusiast,Paid search
+C01801,2023-06-08,Occasional,Paid search
+C01802,2022-07-09,Occasional,Referral
+C01803,2023-10-20,Regular,Organic search
+C01804,2023-09-12,Occasional,Referral
+C01805,2023-03-12,Regular,Organic search
+C01806,2023-08-12,Regular,Organic search
+C01807,2024-05-15,Occasional,Paid search
+C01808,2022-03-31,Occasional,Paid search
+C01809,2024-01-14,Regular,Social
+C01810,2024-06-06,Occasional,Referral
+C01811,2023-12-24,Regular,Social
+C01812,2023-11-26,Regular,Social
+C01813,2022-05-03,Occasional,Direct
+C01814,2022-01-31,Enthusiast,Paid search
+C01815,2022-12-05,Regular,Organic search
+C01816,2022-05-01,Occasional,Referral
+C01817,2023-05-23,Occasional,Direct
+C01818,2023-02-12,Occasional,Social
+C01819,2023-07-20,Occasional,Organic search
+C01820,2024-05-15,Regular,Referral
+C01821,2023-08-04,Enthusiast,Social
+C01822,2023-10-23,Regular,Direct
+C01823,2023-11-26,Enthusiast,Organic search
+C01824,2022-09-06,Occasional,Paid search
+C01825,2022-01-13,Occasional,Social
+C01826,2024-02-28,Occasional,Organic search
+C01827,2023-12-06,Occasional,Paid search
+C01828,2022-12-10,Regular,Organic search
+C01829,2022-09-25,Occasional,Referral
+C01830,2024-03-18,Occasional,Organic search
+C01831,2024-05-20,Occasional,Organic search
+C01832,2022-11-27,Occasional,Organic search
+C01833,2023-04-10,Regular,Referral
+C01834,2023-10-13,Regular,Paid search
+C01835,2022-11-13,Occasional,Organic search
+C01836,2024-05-07,Occasional,Referral
+C01837,2022-09-07,Occasional,Organic search
+C01838,2022-09-28,Regular,Organic search
+C01839,2023-10-07,Regular,Paid search
+C01840,2023-12-23,Regular,Paid search
+C01841,2023-08-10,Regular,Social
+C01842,2023-01-01,Enthusiast,Referral
+C01843,2023-09-09,Regular,Referral
+C01844,2023-02-22,Regular,Organic search
+C01845,2023-12-01,Regular,Referral
+C01846,2022-05-02,Occasional,Referral
+C01847,2023-04-20,Regular,Paid search
+C01848,2024-02-28,Occasional,Paid search
+C01849,2022-04-01,Regular,Organic search
+C01850,2022-02-10,Occasional,Organic search
+C01851,2023-04-21,Occasional,Paid search
+C01852,2022-10-18,Enthusiast,Referral
+C01853,2023-02-15,Occasional,Organic search
+C01854,2022-01-31,Occasional,Organic search
+C01855,2024-06-07,Occasional,Paid search
+C01856,2022-12-25,Occasional,Organic search
+C01857,2022-01-24,Occasional,Organic search
+C01858,2023-06-18,Enthusiast,Direct
+C01859,2023-12-09,Enthusiast,Referral
+C01860,2022-08-09,Occasional,Organic search
+C01861,2022-09-11,Regular,Paid search
+C01862,2022-03-22,Regular,Social
+C01863,2024-01-29,Occasional,Social
+C01864,2023-05-30,Enthusiast,Paid search
+C01865,2023-03-19,Regular,Organic search
+C01866,2023-09-19,Regular,Referral
+C01867,2022-04-20,Regular,Paid search
+C01868,2022-10-23,Occasional,Referral
+C01869,2024-04-01,Regular,Direct
+C01870,2024-03-27,Regular,Social
+C01871,2022-04-29,Regular,Organic search
+C01872,2022-01-12,Occasional,Direct
+C01873,2022-05-11,Regular,Referral
+C01874,2024-06-22,Occasional,Referral
+C01875,2022-06-20,Enthusiast,Organic search
+C01876,2022-01-08,Occasional,Referral
+C01877,2022-01-25,Occasional,Organic search
+C01878,2022-08-02,Enthusiast,Paid search
+C01879,2022-01-06,Occasional,Paid search
+C01880,2024-04-01,Occasional,Organic search
+C01881,2024-01-24,Occasional,Paid search
+C01882,2024-06-17,Enthusiast,Social
+C01883,2023-12-30,Occasional,Organic search
+C01884,2022-06-15,Occasional,Direct
+C01885,2024-01-16,Regular,Paid search
+C01886,2023-01-02,Occasional,Referral
+C01887,2023-07-23,Occasional,Referral
+C01888,2022-11-09,Occasional,Direct
+C01889,2022-11-05,Regular,Referral
+C01890,2024-04-24,Occasional,Paid search
+C01891,2022-05-28,Regular,Paid search
+C01892,2024-01-01,Enthusiast,Direct
+C01893,2022-03-14,Occasional,Organic search
+C01894,2022-08-01,Regular,Paid search
+C01895,2024-06-10,Occasional,Paid search
+C01896,2023-08-22,Occasional,Organic search
+C01897,2023-01-23,Enthusiast,Paid search
+C01898,2024-02-26,Occasional,Paid search
+C01899,2023-12-04,Occasional,Referral
+C01900,2023-05-26,Occasional,Referral
+C01901,2024-01-16,Occasional,Social
+C01902,2022-03-03,Regular,Paid search
+C01903,2022-04-28,Regular,Organic search
+C01904,2024-03-10,Occasional,Referral
+C01905,2023-06-28,Regular,Referral
+C01906,2023-11-21,Regular,Organic search
+C01907,2022-10-16,Regular,Direct
+C01908,2022-03-02,Occasional,Organic search
+C01909,2022-03-12,Regular,Organic search
+C01910,2023-11-22,Regular,Organic search
+C01911,2023-03-25,Occasional,Paid search
+C01912,2024-03-09,Enthusiast,Paid search
+C01913,2024-05-16,Enthusiast,Organic search
+C01914,2022-11-09,Regular,Organic search
+C01915,2022-12-08,Regular,Referral
+C01916,2022-09-16,Occasional,Paid search
+C01917,2022-11-20,Occasional,Organic search
+C01918,2024-06-18,Occasional,Paid search
+C01919,2023-10-12,Regular,Paid search
+C01920,2022-09-15,Occasional,Organic search
+C01921,2023-01-08,Occasional,Direct
+C01922,2023-04-27,Regular,Organic search
+C01923,2022-09-11,Occasional,Organic search
+C01924,2022-02-23,Occasional,Organic search
+C01925,2022-06-10,Occasional,Paid search
+C01926,2022-07-16,Regular,Direct
+C01927,2022-09-16,Regular,Referral
+C01928,2022-03-09,Regular,Social
+C01929,2022-02-22,Enthusiast,Direct
+C01930,2023-06-04,Regular,Direct
+C01931,2024-03-14,Regular,Organic search
+C01932,2024-06-07,Occasional,Referral
+C01933,2022-08-17,Regular,Social
+C01934,2023-11-20,Occasional,Referral
+C01935,2023-01-12,Regular,Paid search
+C01936,2024-02-07,Regular,Paid search
+C01937,2022-10-15,Regular,Direct
+C01938,2023-08-13,Enthusiast,Social
+C01939,2022-07-14,Enthusiast,Referral
+C01940,2022-01-29,Enthusiast,Referral
+C01941,2022-10-16,Occasional,Referral
+C01942,2024-02-27,Regular,Organic search
+C01943,2022-05-28,Occasional,Organic search
+C01944,2023-03-27,Regular,Paid search
+C01945,2023-07-13,Regular,Organic search
+C01946,2022-06-27,Occasional,Direct
+C01947,2022-02-25,Regular,Social
+C01948,2024-01-21,Regular,Referral
+C01949,2023-09-14,Occasional,Organic search
+C01950,2022-07-24,Regular,Paid search
+C01951,2023-07-27,Occasional,Organic search
+C01952,2022-02-19,Occasional,Paid search
+C01953,2022-07-28,Regular,Direct
+C01954,2024-03-24,Regular,Referral
+C01955,2022-04-12,Enthusiast,Social
+C01956,2023-04-25,Occasional,Social
+C01957,2022-07-24,Occasional,Referral
+C01958,2023-09-27,Regular,Paid search
+C01959,2022-02-07,Regular,Paid search
+C01960,2023-04-10,Occasional,Referral
+C01961,2022-06-07,Occasional,Organic search
+C01962,2022-10-25,Occasional,Direct
+C01963,2023-12-10,Enthusiast,Referral
+C01964,2022-12-20,Occasional,Social
+C01965,2022-02-14,Regular,Organic search
+C01966,2024-04-18,Occasional,Paid search
+C01967,2024-02-17,Regular,Organic search
+C01968,2022-01-25,Regular,Direct
+C01969,2023-08-18,Occasional,Organic search
+C01970,2022-09-06,Occasional,Referral
+C01971,2022-06-02,Regular,Organic search
+C01972,2022-05-13,Occasional,Referral
+C01973,2023-11-11,Regular,Organic search
+C01974,2024-01-08,Occasional,Paid search
+C01975,2022-02-27,Regular,Referral
+C01976,2024-03-02,Occasional,Paid search
+C01977,2022-05-21,Regular,Direct
+C01978,2022-07-21,Occasional,Organic search
+C01979,2023-05-04,Occasional,Social
+C01980,2024-02-10,Occasional,Paid search
+C01981,2024-05-28,Regular,Paid search
+C01982,2023-03-17,Occasional,Social
+C01983,2022-07-20,Regular,Referral
+C01984,2022-12-15,Occasional,Direct
+C01985,2022-01-30,Regular,Organic search
+C01986,2023-07-18,Occasional,Paid search
+C01987,2023-11-06,Regular,Direct
+C01988,2024-03-30,Occasional,Organic search
+C01989,2022-12-03,Regular,Direct
+C01990,2022-03-23,Occasional,Referral
+C01991,2022-04-30,Regular,Referral
+C01992,2023-12-09,Occasional,Direct
+C01993,2023-01-31,Occasional,Paid search
+C01994,2022-08-25,Regular,Referral
+C01995,2023-12-09,Enthusiast,Direct
+C01996,2023-07-15,Occasional,Social
+C01997,2023-10-22,Regular,Organic search
+C01998,2022-07-30,Occasional,Direct
+C01999,2023-06-14,Regular,Organic search
+C02000,2022-12-05,Occasional,Direct

@@ -1,0 +1,19 @@
+{
+  "project": "Predictive CLV notebook 1 - synthetic data",
+  "random_seed": 20261012,
+  "n_customers": 2000,
+  "calibration_start": "2022-01-01",
+  "calibration_end": "2024-12-31",
+  "holdout_start": "2025-01-01",
+  "holdout_end": "2025-12-31",
+  "generator": "heterogeneous monthly Poisson purchases and latent monthly dropout",
+  "training_data": [
+    "customer_profiles.csv",
+    "calibration_transactions.csv"
+  ],
+  "evaluation_only": [
+    "simulation_ground_truth.csv",
+    "holdout rows of transactions.csv"
+  ],
+  "notes": "Synthetic educational dataset; not a validated representation of any industry."
+}
