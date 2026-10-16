@@ -142,7 +142,7 @@ predictive-clv-modeling/
 └── simulation_metadata.json
 ```
 
-Optional notebook-generated artifacts include `model_metrics_2025.csv`, `replication_metrics.csv`, `replication_summary.csv`, `replication_fit_checks.csv`, `p_alive_audit.csv`, `three_year_discounted_projection.csv`, `experiment_manifest.json`, and diagnostic figures. If you upload these to GitHub too, consider organizing them in a `results/` folder and updating the paths accordingly.
+Optional notebook-generated artifacts include `model_metrics_2025.csv`, `replication_metrics.csv`, `replication_summary.csv`, `replication_fit_checks.csv`, `p_alive_audit.csv`, `three_year_discounted_projection.csv`, `experiment_manifest.json`, and diagnostic figures.
 
 ## Synthetic data and limitations
 
