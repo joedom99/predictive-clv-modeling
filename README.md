@@ -3,35 +3,131 @@
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange?logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![Google Colab](https://img.shields.io/badge/Google-Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
-[![Data](https://img.shields.io/badge/Data-Synthetic-informational)](#synthetic-data-and-limitations)
-[![Study](https://img.shields.io/badge/Study-Reproducible-brightgreen)](#how-to-reproduce-the-experiment)
+[![Synthetic Data](https://img.shields.io/badge/Data-Synthetic-informational)](#synthetic-data-and-limitations)
+[![Reproducible Study](https://img.shields.io/badge/Study-Reproducible-brightgreen)](#reproduce-the-experiment)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A hands-on Python study of how historical baselines, probabilistic models, and machine learning forecast future customer purchases and contribution. The project uses a reproducible synthetic dataset and a separate holdout period to evaluate where different approaches succeed, where they struggle, and why model assumptions matter.
+A reproducible Python study comparing historical run-rate estimates, **BG/NBD**, **Pareto/NBD**, and machine learning for predicting future customer purchases and financial contribution. Two Google Colab notebooks generate synthetic customer transactions, evaluate forecasts on a future holdout period, and examine model assumptions, numerical stability, and performance across 20 additional simulated customer populations.
 
-This repository accompanies the *Marketing Data Science* article **“Predicting Customer Lifetime Value: What Will Your Customers Be Worth?”** (article link to be added after publication). It builds on the introductory article, **“Customer Lifetime Value: What Is a Customer Really Worth?”**
+This repository supports the forthcoming *Marketing Data Science* article **“Predicting Customer Lifetime Value: What Will Your Customers Be Worth?”**, a follow-up to **“Customer Lifetime Value: What Is a Customer Really Worth?”** The article link will be added after publication.
 
-## Overview
+## Why this project?
 
-Customer Lifetime Value (CLV) is often calculated from average purchases, purchase frequency, and estimated customer lifespan. Those historical averages can be useful, but they do not tell us exactly what individual customers will contribute in the future.
+A common Customer Lifetime Value (CLV) calculation multiplies annual customer contribution by expected lifespan. That is a helpful introduction, but it leaves a difficult question: **Which customers will return, how often will they purchase, and how much will they contribute?**
 
-This project asks a practical question: **Do more sophisticated predictive methods produce more useful CLV forecasts?**
+This study compares accessible baselines with probabilistic purchasing models and supervised machine learning. Rather than assuming a more sophisticated model will win, it evaluates forecasts at both the **individual-customer** and **whole-portfolio** levels and investigates *why* errors occur.
 
-Two Google Colab notebooks make the experiment reproducible:
+## Run in Google Colab
 
-1. **Generate synthetic customer data.** Simulate heterogeneous customers, their purchases, contribution margins, and unobserved dropout behavior. Validate the simulated records and export the data.
-2. **Compare predictive models.** Use past transactions to forecast contribution from the same customers during a future year. Compare accuracy, stability, customer segments, and important modeling assumptions.
-
-## Open the notebooks in Google Colab
-
-| Notebook | What it does | Run in Colab |
+| Notebook | Purpose | Open |
 |---|---|---|
-| [01_generate_synthetic_clv_data.ipynb](01_generate_synthetic_clv_data.ipynb) | Generates and validates the synthetic customer population and transaction history | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joedom99/predictive-clv-modeling/blob/main/01_generate_synthetic_clv_data.ipynb) |
-| [02_predictive_clv_model_comparison.ipynb](02_predictive_clv_model_comparison.ipynb) | Fits models, tests forecasts on a holdout period, and examines diagnostics | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joedom99/predictive-clv-modeling/blob/main/02_predictive_clv_model_comparison.ipynb) |
+| [01_generate_synthetic_clv_data.ipynb](01_generate_synthetic_clv_data.ipynb) | Simulate customers, purchases, contribution and latent dropout; validate and export the frozen dataset | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joedom99/predictive-clv-modeling/blob/main/01_generate_synthetic_clv_data.ipynb) |
+| [02_predictive_clv_model_comparison.ipynb](02_predictive_clv_model_comparison.ipynb) | Fit models, compare 2025 forecasts, audit assumptions and numerical behavior, project future contribution, and run replications | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joedom99/predictive-clv-modeling/blob/main/02_predictive_clv_model_comparison.ipynb) |
 
-These links will work once the repository and notebooks have been uploaded to GitHub under the names shown.
+The Colab links assume the repository is named `joedom99/predictive-clv-modeling`, the default branch is `main`, and both notebooks are stored at the repository root.
 
-## Repository files
+## Data and experimental design
+
+Notebook 1 uses a fixed primary seed (`20261012`) to generate **2,000 fictional customers** with different acquisition dates, purchasing rates, transaction sizes, contribution margins, and probabilities of becoming inactive. True customer dropout is tracked by the simulator but cannot be inferred perfectly from observed transactions.
+
+| Window | Dates | Use |
+|---|---|---|
+| Calibration | January 2022–December 2024 | Customer histories and model fitting |
+| Holdout | January–December 2025 | Forecast evaluation, **not** model-training features |
+
+The primary dataset contains **33,557 transactions**: 25,416 in calibration and 8,141 in the holdout. Those holdout transactions represent **7,952 customer-day purchase occasions** after same-day aggregation. No new customers are acquired during 2025: the forecast concerns **the existing customer base**, not a growing company's total sales.
+
+| File | Contents | Role |
+|---|---|---|
+| `customer_profiles.csv` | Observable customer and acquisition attributes | Model input |
+| `calibration_transactions.csv` | Purchases through December 2024 | Model input |
+| `transactions.csv` | Full history, including 2025 | Holdout evaluation; exclude 2025 from model features |
+| `simulation_ground_truth.csv` | Simulator-known latent behavior and dropout | **Evaluation/audit only** |
+| `simulation_metadata.json` | Random seed, date boundaries and generation details | Reproducibility |
+
+Notebook 2 also creates evaluation tables, numerical fit checks, diagnostic figures, and a manifest documenting the experiment settings. These outputs can be regenerated; they do not need to be committed to run the notebooks.
+
+## Forecasting approaches
+
+| Model | Basic idea |
+|---|---|
+| **Run-rate (lifetime)** | Extrapolate observed purchasing over the customer's history |
+| **Run-rate (last 365 days)** | Extrapolate more recent purchasing activity |
+| **BG/NBD + Gamma-Gamma** | Estimate future purchase occasions with BG/NBD, then contribution per occasion |
+| **Pareto/NBD + Gamma-Gamma** | Model purchases and independent customer dropout, then contribution per occasion |
+| **Random forest** | Learn a future-contribution forecast from historical customer features |
+| **Gradient boosting** | Learn a future-contribution forecast through boosted decision trees |
+
+The probabilistic models use a common customer-day purchase-occasion definition. Gamma-Gamma is fitted to positive repeat-occasion monetary values. Notebook 2 uses unpenalized probabilistic fits and documents numerical safeguards and an independent check of the BG/NBD expected-purchases expression.
+
+**Why include both BG/NBD and Pareto/NBD?** They make different assumptions about when customers can permanently stop buying. Our synthetic generator allows dropout independently of purchase events, which may favor Pareto/NBD. This alignment is part of the experimental design, not evidence that Pareto/NBD will outperform other methods on real businesses.
+
+## What the experiment measures
+
+The primary test forecasts **2025 contribution from the 2,000 existing customers**. The notebook evaluates:
+
+- **Customer-level MAE and RMSE:** how far individual forecasts differ from realized contribution.
+- **Signed portfolio forecast error:** whether total predicted contribution is too high or too low. A low portfolio error can conceal offsetting customer errors.
+- **Purchase-occasion accuracy:** evaluated separately from raw transaction counts.
+- **Segment and high-value-customer results:** how performance varies across customer groups.
+- **Residuals and bootstrap intervals:** patterns of individual error and within-sample uncertainty.
+- **P(alive) calibration:** an *evaluation-only* comparison with simulator-known customer survival; latent truth is not passed to the models.
+- **Three-year discounted projections:** illustrative 2025–2027 forecasts for the existing portfolio. Only 2025 has observed outcomes in this experiment; 2026–2027 are **not independently validated forecasts**.
+
+### Results from the primary holdout
+
+| Model | Customer MAE | Signed portfolio error |
+|---|---:|---:|
+| Pareto/NBD + Gamma-Gamma | **$113.83** | +1.03% |
+| BG/NBD + Gamma-Gamma | $119.14 | +11.73% |
+| Random forest | $125.46 | +3.7% |
+| Gradient boosting | $127.80 | +2.9% |
+| Run-rate (last 365 days) | $153.76 | +40.71% |
+| Run-rate (lifetime) | $227.11 | +90.41% |
+
+*Results are from fictional data, not published industry benchmarks. Full precision and additional metrics are provided in notebook exports.*
+
+### Replication across 20 additional simulated customer populations
+
+The model settings are held constant while the experiment is repeated with seeds **101–120**. The following figures summarize the distributions of customer-level and portfolio errors across those simulated populations:
+
+| Model | Median customer MAE | Median absolute portfolio error |
+|---|---:|---:|
+| Pareto/NBD + Gamma-Gamma | **$113.52** | 3.54% |
+| Random forest | $119.22 | **2.85%** |
+| BG/NBD + Gamma-Gamma | $120.20 | 14.66% |
+| Gradient boosting | $124.64 | 3.01% |
+| Run-rate (last 365 days) | $152.47 | 41.82% |
+| Run-rate (lifetime) | $224.20 | 91.90% |
+
+Pareto/NBD + Gamma-Gamma has the lowest customer-level MAE in **19 of the 20** additional simulations. That establishes consistency *within this simulator*, not superiority across real-world industries or different data-generating processes.
+
+## Diagnostics and numerical safeguards
+
+The notebooks document modeling decisions instead of hiding difficult cases:
+
+- Validate customer acquisition dates, transaction chronology, and calibration/holdout separation.
+- Distinguish observable purchases from simulator-known dropout.
+- Check frequency, recency and observation age (`T`) for probabilistic inputs.
+- Aggregate same-day transactions before fitting purchase-occasion models.
+- Verify that fitted models yield finite, sensible forecasts; report numerical warnings and fit checks.
+- Examine regularization sensitivity and Gamma-Gamma's monetary assumptions without choosing settings to minimize 2025 error.
+- Use the simulated ground truth only in clearly labeled retrospective evaluation.
+- Record package versions, fitting conventions, and replication seeds in `experiment_manifest.json`.
+
+A model that fits is not necessarily a model that predicts well. Forecast validity, numerical stability, and predictive accuracy are related but separate questions.
+
+## Reproduce the experiment
+
+1. Download or clone the repository, or open **Notebook 1** directly in Google Colab.
+2. Run all cells of Notebook 1 to recreate and export the primary synthetic datasets. You can also use the committed CSV/JSON files without regenerating them.
+3. Open **Notebook 2** in Colab and provide the input files requested by its upload cell. Follow its dependency installation instructions.
+4. Select **Runtime → Run all** and review the model-fit diagnostics, holdout comparison, replications, and generated charts.
+5. Keep the original calibration/holdout dates, seeds, and fixed modeling choices to reproduce the documented experiment.
+
+Notebook 2 requires additional compute time for the **20 replication runs**. A hosted Colab CPU runtime is appropriate, but exact execution time and solver behavior may vary with the Python and library versions.
+
+## Repository layout
 
 ```text
 predictive-clv-modeling/
@@ -46,97 +142,32 @@ predictive-clv-modeling/
 └── simulation_metadata.json
 ```
 
-The CSV and JSON files are generated by Notebook 1. Notebook 2 can use the published files as inputs; it does not require rerunning Notebook 1 if the data is already available.
-
-The project uses the MIT License. Add a standard `LICENSE` file with the copyright notice `Copyright (c) 2026 Joe Domaleski`.
-
-## Synthetic dataset
-
-The experiment simulates **2,000 customers**, with customer acquisition dates, different purchasing tendencies, transaction values, variable costs, and latent dropout behavior.
-
-| Period | Dates | Role |
-|---|---|---|
-| Calibration | January 2022–December 2024 | Purchase histories available for modeling |
-| Holdout | January–December 2025 | Future purchases and contribution used for evaluation |
-
-The generated dataset contains **33,557 transactions**: 25,416 in calibration and 8,141 in the holdout. The 8,141 holdout transactions correspond to **7,952 distinct customer-day purchase occasions**, an important distinction for BG/NBD modeling.
-
-| File | Contents | Intended use |
-|---|---|---|
-| `customer_profiles.csv` | Observable customer attributes, including acquisition information | Modeling input |
-| `calibration_transactions.csv` | Transactions through the end of 2024 | Modeling input |
-| `transactions.csv` | Full simulation history, including the 2025 holdout | Evaluation; **filter out holdout rows during training** |
-| `simulation_ground_truth.csv` | Underlying simulated behavior, including latent dropout | **Evaluation and diagnostics only; never training features** |
-| `simulation_metadata.json` | Seed, time boundaries, and simulation notes | Reproducibility |
-
-The random seed is `20261012`. Customer acquisition stops before the 2025 holdout; the study forecasts **future contributions from an existing customer population**, not the revenue of a business continuing to acquire new customers.
-
-## Methods compared
-
-| Approach | What it forecasts |
-|---|---|
-| Historical lifetime baseline | Future contribution extrapolated from historical behavior |
-| Recent purchasing baseline | Future contribution informed by more recent purchasing activity |
-| BG/NBD + Gamma-Gamma | Expected purchase occasions combined with estimated contribution per occasion |
-| BG/NBD + historical monetary value | Expected purchase occasions combined with historical contribution per occasion |
-| Random forest | Future contribution using observable, historical customer features |
-| Gradient boosting | Future contribution using observable, historical customer features |
-
-The **BG/NBD + historical monetary** approach is a *post-hoc exploratory hybrid*: it was added after reviewing the initial holdout results. It should not be described as an independently preselected model.
-
-The notebook also explores **RFM (recency, frequency, monetary value)**, customer segmentation, model residuals, and bootstrap uncertainty.
-
-## Validation and model diagnostics
-
-Notebook 2 compares customer-level **mean absolute error (MAE)** and **root mean squared error (RMSE)** alongside the error in the **total portfolio contribution forecast**. A low aggregate error can hide offsetting overpredictions and underpredictions for individual customers or segments.
-
-Additional checks include:
-
-- Same-day transaction aggregation into purchase occasions for BG/NBD.
-- Consistent measurement of BG/NBD frequency, recency, and observation age (`T`).
-- Explicit checks for nonfinite or invalid model predictions.
-- BG/NBD regularization sensitivity and the reasons for retaining a numerically stable setting.
-- Gamma-Gamma regularization sensitivity and monetary-value assumption checks.
-- Separate examination of purchase-count and contribution-per-occasion errors.
-- Segment-level and high-historical-value customer performance.
-- Customer-level bootstrap intervals, interpreted as uncertainty within this simulated evaluation population.
-
-**Important:** A successful model fit does not guarantee valid predictions, and numerically stable forecasts are not necessarily accurate forecasts. Sensitivity analyses are presented for transparency rather than to select settings based on 2025 outcomes.
-
-## How to reproduce the experiment
-
-1. Open **Notebook 1** in Colab and choose **Runtime → Run all** to regenerate the dataset. Alternatively, use the included CSV and JSON files.
-2. Open **Notebook 2** in Colab and follow its input-file upload instructions. Use `customer_profiles.csv`, `calibration_transactions.csv`, and the full transaction data needed to evaluate the holdout. Supply the ground-truth file only for the notebook's optional evaluation-only audit.
-3. Choose **Runtime → Run all**. Inspect the validation messages, model tables, sensitivity analyses, and exported results.
-4. Preserve the random seed and the calibration/holdout boundaries if you want to reproduce the published experiment.
-
-A standard CPU runtime is sufficient. The notebooks use common Python scientific libraries including `numpy`, `pandas`, `matplotlib`, `scipy`, and `scikit-learn`; the probabilistic models use the `lifetimes` package. Notebook 2 contains its Colab dependency setup.
+Optional notebook-generated artifacts include `model_metrics_2025.csv`, `replication_metrics.csv`, `replication_summary.csv`, `replication_fit_checks.csv`, `p_alive_audit.csv`, `three_year_discounted_projection.csv`, `experiment_manifest.json`, and diagnostic figures. If you upload these to GitHub too, consider organizing them in a `results/` folder and updating the paths accordingly.
 
 ## Synthetic data and limitations
 
-**All customers and transactions are fictional.** The simulation is an educational experiment, not an industry benchmark or a validated replica of an actual business. Its results should not be treated as typical CLV, churn, or marketing performance figures.
+**This is an educational simulation, not a validation against a real company's customers.** The dataset was constructed to exhibit plausible heterogeneity and dropout, but it is not calibrated to any particular industry or business.
 
-The study also has several methodological limitations:
+The experiment has important boundaries:
 
-- Noncontractual customer inactivity is not equivalent to observed cancellation. Latent dropout is known to the simulator but would not normally be visible to a business.
-- BG/NBD and Gamma-Gamma rely on assumptions that may not match the simulated purchasing and monetary processes. The notebook reports numerical sensitivity rather than concealing it.
-- The model comparison uses one synthetic dataset and one primary holdout period. Results may differ across businesses, datasets, and forecasting horizons.
-- Some later diagnostics and the historical-monetary hybrid were developed after examining holdout results, so they are explicitly exploratory rather than independent confirmation.
-- Predicting **contribution** after variable costs is not the same as predicting net profit. Acquisition costs, other expenses, and discounting must be considered for financial decisions.
+- **Model–simulator alignment:** Pareto/NBD shares a key dropout assumption with the generator, which can affect relative performance.
+- **Limited external validity:** Twenty additional seeds repeat one data-generating design; they do not represent 20 independent industries or empirical datasets.
+- **Development history:** The primary 2025 holdout was viewed during earlier notebook development. Its results should not be described as a pristine, never-examined test set. Later replications strengthen the within-simulator assessment but do not establish real-world generalizability.
+- **Model assumptions:** Noncontractual churn is not directly observed; purchase frequency and monetary-value modeling can be misspecified or numerically sensitive.
+- **Finance:** Contribution after variable costs is **not** net profit. Acquisition costs, fixed expenses, and the timing of future cash flows matter in business decisions.
+- **Forecast horizons:** The three-year charts illustrate model-based projections; only the first year is evaluated against realized transactions.
 
-The broader point is not that one model always wins. **Model usefulness depends on the available data, the assumptions being made, the prediction target, and the business decision the forecast supports.**
+The goal is not to declare one algorithm universally best. It is to show how **assumptions, data design, evaluation metrics, and the business question** determine whether a CLV forecast is useful.
 
 ## Related reading
 
-- *Customer Lifetime Value: What Is a Customer Really Worth?* — introductory article in the Marketing Data Science series.
-- *Predicting Customer Lifetime Value: What Will Your Customers Be Worth?* — companion article (link to be added after publication).
+- **Customer Lifetime Value: What Is a Customer Really Worth?** — introductory article in the *Marketing Data Science* series.
+- **Predicting Customer Lifetime Value: What Will Your Customers Be Worth?** — companion article (link forthcoming).
 - [Marketing Data Science](https://blog.marketingdatascience.ai/)
 
 ## License
 
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for the full license text.
-
-Copyright (c) 2026 Joe Domaleski.
+Released under the [MIT License](LICENSE). Copyright (c) 2026 Joe Domaleski.
 
 ## Author
 
@@ -144,7 +175,3 @@ Copyright (c) 2026 Joe Domaleski.
 [Marketing Data Science](https://blog.marketingdatascience.ai/) · [Country Fried Creative](https://countryfriedcreative.com/) · [GitHub](https://github.com/joedom99)
 
 I write about practical applications of marketing, analytics, data science, machine learning, and artificial intelligence.
-
----
-
-*Technology is a tool. People are the mission.*
