@@ -9,7 +9,7 @@
 
 A reproducible Python study comparing historical run-rate estimates, **BG/NBD**, **Pareto/NBD**, and machine learning for predicting future customer purchases and financial contribution. Two Google Colab notebooks generate synthetic customer transactions, evaluate forecasts on a future holdout period, and examine model assumptions, numerical stability, and performance across 20 additional simulated customer populations.
 
-This repository supports the forthcoming *Marketing Data Science* article **“Predicting Customer Lifetime Value: What Will Your Customers Be Worth?”**, a follow-up to **“Customer Lifetime Value: What Is a Customer Really Worth?”** The article link will be added after publication.
+This repository supports the forthcoming *Marketing Data Science* article **"Predicting Customer Lifetime Value: What Will Your Customers Be Worth?"**, a follow-up to [**"Customer Lifetime Value: What Is a Customer Really Worth?"**](https://blog.marketingdatascience.ai/customer-lifetime-value-what-is-a-customer-really-worth-47cf0efc510c) The article link will be added after publication.
 
 ## Why this project?
 
@@ -24,16 +24,14 @@ This study compares accessible baselines with probabilistic purchasing models an
 | [01_generate_synthetic_clv_data.ipynb](01_generate_synthetic_clv_data.ipynb) | Simulate customers, purchases, contribution and latent dropout; validate and export the frozen dataset | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joedom99/predictive-clv-modeling/blob/main/01_generate_synthetic_clv_data.ipynb) |
 | [02_predictive_clv_model_comparison.ipynb](02_predictive_clv_model_comparison.ipynb) | Fit models, compare 2025 forecasts, audit assumptions and numerical behavior, project future contribution, and run replications | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joedom99/predictive-clv-modeling/blob/main/02_predictive_clv_model_comparison.ipynb) |
 
-The Colab links assume the repository is named `joedom99/predictive-clv-modeling`, the default branch is `main`, and both notebooks are stored at the repository root.
-
 ## Data and experimental design
 
 Notebook 1 uses a fixed primary seed (`20261012`) to generate **2,000 fictional customers** with different acquisition dates, purchasing rates, transaction sizes, contribution margins, and probabilities of becoming inactive. True customer dropout is tracked by the simulator but cannot be inferred perfectly from observed transactions.
 
 | Window | Dates | Use |
 |---|---|---|
-| Calibration | January 2022–December 2024 | Customer histories and model fitting |
-| Holdout | January–December 2025 | Forecast evaluation, **not** model-training features |
+| Calibration | January 2022 to December 2024 | Customer histories and model fitting |
+| Holdout | January to December 2025 | Forecast evaluation, **not** model-training features |
 
 The primary dataset contains **33,557 transactions**: 25,416 in calibration and 8,141 in the holdout. Those holdout transactions represent **7,952 customer-day purchase occasions** after same-day aggregation. No new customers are acquired during 2025: the forecast concerns **the existing customer base**, not a growing company's total sales.
 
@@ -45,7 +43,7 @@ The primary dataset contains **33,557 transactions**: 25,416 in calibration and 
 | `simulation_ground_truth.csv` | Simulator-known latent behavior and dropout | **Evaluation/audit only** |
 | `simulation_metadata.json` | Random seed, date boundaries and generation details | Reproducibility |
 
-Notebook 2 also creates evaluation tables, numerical fit checks, diagnostic figures, and a manifest documenting the experiment settings. These outputs can be regenerated; they do not need to be committed to run the notebooks.
+Notebook 2 also creates evaluation tables, numerical fit checks, diagnostic figures, and a manifest documenting the experiment settings. The outputs from the run reported in the article are saved in [`clv_model_results/`](clv_model_results/) (see [Saved results](#saved-results)).
 
 ## Forecasting approaches
 
@@ -72,35 +70,35 @@ The primary test forecasts **2025 contribution from the 2,000 existing customers
 - **Segment and high-value-customer results:** how performance varies across customer groups.
 - **Residuals and bootstrap intervals:** patterns of individual error and within-sample uncertainty.
 - **P(alive) calibration:** an *evaluation-only* comparison with simulator-known customer survival; latent truth is not passed to the models.
-- **Three-year discounted projections:** illustrative 2025–2027 forecasts for the existing portfolio. Only 2025 has observed outcomes in this experiment; 2026–2027 are **not independently validated forecasts**.
+- **Three-year discounted projections:** illustrative 2025 to 2027 forecasts for the existing portfolio. Only 2025 has observed outcomes in this experiment; 2026 and 2027 are **not independently validated forecasts**.
 
 ### Results from the primary holdout
 
 | Model | Customer MAE | Signed portfolio error |
 |---|---:|---:|
-| Pareto/NBD + Gamma-Gamma | **$113.83** | +1.03% |
+| Pareto/NBD + Gamma-Gamma | **$113.83** | **+1.03%** |
 | BG/NBD + Gamma-Gamma | $119.14 | +11.73% |
-| Random forest | $125.46 | +3.7% |
-| Gradient boosting | $127.80 | +2.9% |
+| Random forest | $125.41 | +3.83% |
+| Gradient boosting | $127.71 | +3.48% |
 | Run-rate (last 365 days) | $153.76 | +40.71% |
 | Run-rate (lifetime) | $227.11 | +90.41% |
 
-*Results are from fictional data, not published industry benchmarks. Full precision and additional metrics are provided in notebook exports.*
+*Results are from fictional data, not published industry benchmarks. Full precision and additional metrics are in [`clv_model_results/model_metrics_2025.csv`](clv_model_results/model_metrics_2025.csv).*
 
 ### Replication across 20 additional simulated customer populations
 
-The model settings are held constant while the experiment is repeated with seeds **101–120**. The following figures summarize the distributions of customer-level and portfolio errors across those simulated populations:
+The model settings are held constant while the experiment is repeated with seeds **101 to 120**. The table below summarizes customer-level and portfolio errors across those simulated populations:
 
 | Model | Median customer MAE | Median absolute portfolio error |
 |---|---:|---:|
 | Pareto/NBD + Gamma-Gamma | **$113.52** | 3.54% |
-| Random forest | $119.22 | **2.85%** |
+| Random forest | $119.22 | **2.86%** |
 | BG/NBD + Gamma-Gamma | $120.20 | 14.66% |
-| Gradient boosting | $124.64 | 3.01% |
+| Gradient boosting | $125.48 | **2.86%** |
 | Run-rate (last 365 days) | $152.47 | 41.82% |
 | Run-rate (lifetime) | $224.20 | 91.90% |
 
-Pareto/NBD + Gamma-Gamma has the lowest customer-level MAE in **19 of the 20** additional simulations. That establishes consistency *within this simulator*, not superiority across real-world industries or different data-generating processes.
+Pareto/NBD + Gamma-Gamma has the lowest customer-level MAE in **19 of the 20** additional simulations. Random forest and gradient boosting are effectively tied for the lowest median portfolio error. That establishes consistency *within this simulator*, not superiority across real-world industries or different data-generating processes.
 
 ## Diagnostics and numerical safeguards
 
@@ -121,11 +119,17 @@ A model that fits is not necessarily a model that predicts well. Forecast validi
 
 1. Download or clone the repository, or open **Notebook 1** directly in Google Colab.
 2. Run all cells of Notebook 1 to recreate and export the primary synthetic datasets. You can also use the committed CSV/JSON files without regenerating them.
-3. Open **Notebook 2** in Colab and provide the input files requested by its upload cell. Follow its dependency installation instructions.
+3. Open **Notebook 2** in Colab. When prompted, upload the Notebook 1 ZIP, or the four input files plus `simulation_ground_truth.csv` (needed for the P(alive) audit). The notebook installs the `lifetimes` package automatically if it is missing.
 4. Select **Runtime → Run all** and review the model-fit diagnostics, holdout comparison, replications, and generated charts.
 5. Keep the original calibration/holdout dates, seeds, and fixed modeling choices to reproduce the documented experiment.
 
-Notebook 2 requires additional compute time for the **20 replication runs**. A hosted Colab CPU runtime is appropriate, but exact execution time and solver behavior may vary with the Python and library versions.
+Notebook 2 takes about 10 minutes on a standard Colab CPU runtime, most of it for the **20 replication runs**. To skip them, set `RUN_REPLICATION = False` in the settings cell.
+
+## Saved results
+
+The [`clv_model_results/`](clv_model_results/) folder contains the outputs from the run reported in the article, including model metrics, replication results, customer-level predictions, the P(alive) audit, the three-year projection, diagnostic figures, and `experiment_manifest.json`.
+
+Rerunning Notebook 2 should reproduce the probabilistic model results exactly. Machine learning and replication results may differ slightly depending on the Python and library versions in your environment.
 
 ## Repository layout
 
@@ -139,10 +143,19 @@ predictive-clv-modeling/
 ├── calibration_transactions.csv
 ├── transactions.csv
 ├── simulation_ground_truth.csv
-└── simulation_metadata.json
+├── simulation_metadata.json
+└── clv_model_results/
+    ├── model_metrics_2025.csv
+    ├── replication_summary.csv
+    ├── replication_metrics.csv
+    ├── replication_fit_checks.csv
+    ├── customer_predictions_2025.csv
+    ├── p_alive_audit.csv
+    ├── three_year_discounted_projection.csv
+    ├── experiment_manifest.json
+    ├── fig_*.png
+    └── ... (additional diagnostic tables)
 ```
-
-Optional notebook-generated artifacts include `model_metrics_2025.csv`, `replication_metrics.csv`, `replication_summary.csv`, `replication_fit_checks.csv`, `p_alive_audit.csv`, `three_year_discounted_projection.csv`, `experiment_manifest.json`, and diagnostic figures.
 
 ## Synthetic data and limitations
 
@@ -161,8 +174,8 @@ The goal is not to declare one algorithm universally best. It is to show how **a
 
 ## Related reading
 
-- **Customer Lifetime Value: What Is a Customer Really Worth?** — introductory article in the *Marketing Data Science* series.
-- **Predicting Customer Lifetime Value: What Will Your Customers Be Worth?** — companion article (link forthcoming).
+- [**Customer Lifetime Value: What Is a Customer Really Worth?**](https://blog.marketingdatascience.ai/customer-lifetime-value-what-is-a-customer-really-worth-47cf0efc510c): introductory article in the *Marketing Data Science* series.
+- **Predicting Customer Lifetime Value: What Will Your Customers Be Worth?**: companion article (link forthcoming).
 - [Marketing Data Science](https://blog.marketingdatascience.ai/)
 
 ## License
