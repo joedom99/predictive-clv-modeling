@@ -9,7 +9,7 @@
 
 A reproducible Python study comparing historical run-rate estimates, **BG/NBD**, **Pareto/NBD**, and machine learning for predicting future customer purchases and financial contribution. Two Google Colab notebooks generate synthetic customer transactions, evaluate forecasts on a future holdout period, and examine model assumptions, numerical stability, and performance across 20 additional simulated customer populations.
 
-This repository supports the forthcoming *Marketing Data Science* article **"Predicting Customer Lifetime Value: What Will Your Customers Be Worth?"**, a follow-up to [**"Customer Lifetime Value: What Is a Customer Really Worth?"**](https://blog.marketingdatascience.ai/customer-lifetime-value-what-is-a-customer-really-worth-47cf0efc510c) The article link will be added after publication.
+This repository supports my *Marketing Data Science* article [**"Predicting Customer Lifetime Value: What Will Your Customers Be Worth?"**](https://blog.marketingdatascience.ai/predicting-customer-lifetime-value-what-will-your-customers-be-worth-d8f2eb2327f8), a follow-up to [**"Customer Lifetime Value: What Is a Customer Really Worth?"**](https://blog.marketingdatascience.ai/customer-lifetime-value-what-is-a-customer-really-worth-47cf0efc510c)
 
 ## Why this project?
 
@@ -175,8 +175,7 @@ The goal is not to declare one algorithm universally best. It is to show how **a
 ## Related reading
 
 - [**Customer Lifetime Value: What Is a Customer Really Worth?**](https://blog.marketingdatascience.ai/customer-lifetime-value-what-is-a-customer-really-worth-47cf0efc510c): introductory article in the *Marketing Data Science* series.
-- **Predicting Customer Lifetime Value: What Will Your Customers Be Worth?**: companion article (link forthcoming).
-- [Marketing Data Science](https://blog.marketingdatascience.ai/)
+- [**Predicting Customer Lifetime Value: What Will Your Customers Be Worth?**]([https://blog.marketingdatascience.ai/](https://blog.marketingdatascience.ai/predicting-customer-lifetime-value-what-will-your-customers-be-worth-d8f2eb2327f8))
 
 ## License
 
