@@ -175,7 +175,7 @@ The goal is not to declare one algorithm universally best. It is to show how **a
 ## Related reading
 
 - [**Customer Lifetime Value: What Is a Customer Really Worth?**](https://blog.marketingdatascience.ai/customer-lifetime-value-what-is-a-customer-really-worth-47cf0efc510c): introductory article in the *Marketing Data Science* series.
-- [**Predicting Customer Lifetime Value: What Will Your Customers Be Worth?**]([https://blog.marketingdatascience.ai/](https://blog.marketingdatascience.ai/predicting-customer-lifetime-value-what-will-your-customers-be-worth-d8f2eb2327f8))
+- [**Predicting Customer Lifetime Value: What Will Your Customers Be Worth?**](https://blog.marketingdatascience.ai/predicting-customer-lifetime-value-what-will-your-customers-be-worth-d8f2eb2327f8)
 
 ## License
 
